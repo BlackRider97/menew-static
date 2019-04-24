@@ -70,15 +70,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     flex-direction: row;
     justify-content: space-between;
 }
-.dmn_fillerBlock .container h3{
-    text-align: left;
-    width: 60%;
-    line-height: 40px;
-}
-.dmn_fillerBlock .container .dmn_contactBtn{
-    max-width: 35%;
-    text-align: right;
-} 
+
 .dmn_fillerBlock .container .dmn_contactBtn a{
     margin-top: 0px !important;
 }
@@ -135,27 +127,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     padding: 100px 0 60px;
     text-align: center;
 }
-.company-seo-text .text{
-    padding: 50px 0;
-}
-.company-seo-text .icon1, .company-seo-text .icon3{
-    width: 200px;
-    padding-top: 0px;
-    position: relative;
-    z-index: 999;
-}
-.company-seo-text .icon2, .company-seo-text .icon4{
-    width: 200px;
-    position: relative;
-    z-index: 999;
-}
-.company-seo-text .icon1{
-    margin-left: 105px;
 
-}
-.company-seo-text .icon3{
-    margin-left: -105px;
-}
 .company-seo-text img.engine_icon{
     width: 30%;
     display: inline-block;
@@ -217,6 +189,41 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
         background-position: center;
         height: 700px;
     }
+    header.theme-menu-wrapper.full-width-menu {
+        height: 77px;
+    }
+    .dmn_fillerBlock .container h3{
+        text-align: left;
+        width: 60%;
+        line-height: 40px;
+    }
+    .dmn_fillerBlock .container .dmn_contactBtn{
+        max-width: 35%;
+        text-align: right;
+    } 
+    .company-seo-text .icon1, .company-seo-text .icon3{
+        width: 200px;
+        padding-top: 0px;
+        position: relative;
+        z-index: 999;
+    }
+    .company-seo-text .icon2, .company-seo-text .icon4{
+        width: 200px;
+        position: relative;
+        z-index: 999;
+    }
+    .company-seo-text .icon1{
+        margin-left: 105px;
+    
+    }
+    .company-seo-text .icon3{
+        margin-left: -105px;
+    }
+    .company-seo-text .text{
+        padding: 50px 0;
+    }
+.pricing-plan-one {padding: 100px;}
+
 }
 
 @media only screen and (min-width:1099px) and (max-width:1500px){
@@ -229,6 +236,9 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
         background-repeat: no-repeat;
         background-position: center;
     }
+    header.theme-menu-wrapper.full-width-menu {
+        height: 77px;
+    }
     .bannerContent {
         padding-top:120px;
     }
@@ -238,7 +248,38 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
         padding: 20px 0 40px; 
         font-weight: 400;
     }
-   
+    .dmn_fillerBlock .container h3{
+        text-align: left;
+        width: 60%;
+        line-height: 40px;
+    }
+    .dmn_fillerBlock .container .dmn_contactBtn{
+        max-width: 35%;
+        text-align: right;
+    } 
+    .company-seo-text .icon1, .company-seo-text .icon3{
+        width: 200px;
+        padding-top: 0px;
+        position: relative;
+        z-index: 999;
+    }
+    .company-seo-text .icon2, .company-seo-text .icon4{
+        width: 200px;
+        position: relative;
+        z-index: 999;
+    }
+    .company-seo-text .icon1{
+        margin-left: 105px;
+    
+    }
+    .company-seo-text .icon3{
+        margin-left: -105px;
+    }
+    .company-seo-text .text{
+        padding: 50px 0;
+    }
+.pricing-plan-one {padding: 100px;}
+
 }
 
 @media only screen and (min-width:991px) and (max-width:1098px){
@@ -250,6 +291,9 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
         background-repeat: no-repeat;
         background-position: center;
     }
+    header.theme-menu-wrapper.full-width-menu {
+        height: 77px;
+    }
     .bannerContent {
         padding-top:100px;
     }
@@ -259,6 +303,8 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
         font-weight: 400;
         line-height: 57px;
     }
+.pricing-plan-one {padding: 100px;}
+
 }
 @media only screen and (min-width:500px) and (max-width:990px){
     .homeMainBanner{
@@ -278,6 +324,39 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
         font-weight: 500;
 
     }
+
+    .dmn_fillerBlock .container h3{
+        text-align: left;
+        width: 60%;
+        line-height: 40px;
+    }
+    .dmn_fillerBlock .container .dmn_contactBtn{
+        max-width: 35%;
+        text-align: right;
+    } 
+    .company-seo-text .icon1, .company-seo-text .icon3{
+        width: 200px;
+        padding-top: 0px;
+        position: relative;
+        z-index: 999;
+    }
+    .company-seo-text .icon2, .company-seo-text .icon4{
+        width: 200px;
+        position: relative;
+        z-index: 999;
+    }
+    .company-seo-text .icon1{
+        margin-left: 105px;
+    
+    }
+    .company-seo-text .icon3{
+        margin-left: -105px;
+    }
+    .company-seo-text .text{
+        padding: 50px 0;
+    }
+.pricing-plan-one {padding: 100px;}
+
 }
 @media only screen and (max-width:499px){
     .homeMainBanner{
@@ -288,6 +367,9 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
         background-position: center;
         height: 300px;
     }
+    header.theme-menu-wrapper.full-width-menu {
+        height: 73px;
+    }
     .bannerContent {
         padding-top:60px;
     }
@@ -295,4 +377,13 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
         font-size: 20px;
         padding: 25px 0;
     }
+    .dmn_fillerBlock .container h3{
+        width: 100%;
+        line-height: 40px;
+    }
+    .company-seo-text .text{
+        padding: 20px 0;
+    }
+.pricing-plan-one {padding: 20px;}
+
 }

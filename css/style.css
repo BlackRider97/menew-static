@@ -337,8 +337,6 @@ header.theme-menu-wrapper {
   padding-top: 30px;
 }
 header.theme-menu-wrapper.full-width-menu {
-  /* padding-left: 80px;padding-right:80px; */
-  height: 77px;
   padding: 25px 0 0 0;
   border-bottom: 1px solid;
   display: block;
@@ -1401,7 +1399,6 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   -webkit-box-shadow: 0px 3px 35px 0px rgba(160, 190, 212, 0.22);
           box-shadow: 0px 3px 35px 0px rgba(160, 190, 212, 0.22);
 }
-.pricing-plan-one {padding: 100px;}
 /*------------------------ Home Blog Section --------------------*/
 .home-blog-section {padding: 60px 0 0 0;}
 .home-blog-section .theme-title {margin-bottom: 140px;}

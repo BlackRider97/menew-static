@@ -64,7 +64,7 @@
   .testimonial-section .image-box,.testimonial-section .theme-shape-four {display: none;}
   .more-about-us .main-content {padding-left: 0;}
   header.theme-menu-wrapper {padding-top: 35px;}
-  .theme-menu-wrapper .logo,.theme-menu-wrapper.menu-style-two.inner-menu .logo {position: absolute;z-index: 9;top:40px;left:80px;}
+  .theme-menu-wrapper .logo,.theme-menu-wrapper.menu-style-two.inner-menu .logo {position: absolute;z-index: 9;top:30px;left:80px;}
   .theme-menu-wrapper.menu-style-two .container,.menu-style-three .container {position: relative;}
   .theme-menu-wrapper.menu-style-two .logo {left: 15px; top:6px;}
   .theme-menu-wrapper.menu-style-three .logo {left:15px;top:22px;}
@@ -131,7 +131,7 @@
 
 @media (max-width: 767px) {
     .theme-menu-wrapper .logo,.theme-menu-wrapper.menu-style-two.inner-menu .logo {left: 15px;}
-    header.theme-menu-wrapper.full-width-menu {padding-left: 15px;padding-right: 15px;}
+    /* header.theme-menu-wrapper.full-width-menu {padding-left: 15px;padding-right: 15px;} */
     .what-we-do h3 {font-size: 28px;line-height: 48px;}
     .what-we-do .container>h6 {font-size: 18px;line-height: 30px;margin-bottom: 80px;}
     .what-we-do .single-block .icon.middle-block:before, .what-we-do .single-block .icon.middle-block:after {width: 80%;}
