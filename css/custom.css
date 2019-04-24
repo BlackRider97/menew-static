@@ -1,0 +1,244 @@
+/*SLIDER SECTION*/
+.logo img{
+    max-width: 60%;
+}
+#mega-menu-wrapper .nav>li{
+    cursor: pointer;
+}
+.bannerContent p{
+    color: #21B14B;
+    font-weight: 600;
+    font-size: 23px;
+}
+.bannerContent h1 a{
+    color: #F58042;
+}
+header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a, .demoBtn a, .videoBtn a, .dmn_contactBtn a{
+    line-height: 36px;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 5px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
+    width: 165px;
+    letter-spacing: 0.8px;
+}
+.bannerSlide{
+    padding-left: 45px;
+}
+header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a, .demoBtn a{
+    color: #ffffff;
+    background: #21B14B;
+    margin: -7px 0 0 0px;
+}
+.dmn_contactBtn a{
+    color: #ffffff;
+    background: #21B14B;
+    text-align: center;
+    margin-top: 45px;
+}
+.videoBtn a{
+    color: #000000;
+    background: #ffffff;
+    border: 2px solid #21B14B;
+    margin: 0 0 20px 0px;
+    cursor: pointer !important;
+}
+header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:before {display: none;}
+header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;}
+
+/*SOLUTION SECTION*/
+.dmn_solSec{
+    background-image: url(../images/menew/back1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    margin: 60px 0px 0 0 ;
+}
+.dmn_fillerSec{
+    background-image: url(../images/menew/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0 100px;
+    height: 100%;
+    background-position: center center;
+    z-index: 0;
+    text-align: center;
+    background-attachment: fixed;
+    margin: -92px;
+}
+.dmn_solSec h3, .what-we-do h3, .dmn_fillerSec h3, .dnm_prodTitle h3{
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 54px;
+    margin: 0 auto;
+    width: 75%;
+}
+.dmn_solSec h3, .dmn_fillerSec h3{
+    color: #ffffff;
+}
+.what-we-do h3{
+    color: #21B14B;
+}
+.dmn_solSec h6{
+    color: #fff;
+    margin: 35px auto 0 auto;
+}
+.dmn_solSec h6, .dnm_prodTitle h6{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+    width: 85%;
+}
+.dnm_prodTitle h6{
+    margin: 15px auto 0 auto;
+
+}
+.dnm_prodTitle{
+    color: #2d2d43;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.what-we-do, .home-service-section, .testimonial-section{
+    background-image: url(../images/menew/backCommon.png);
+    background-size: contain;
+    background-repeat: repeat;
+}
+.testimonial-section{
+    background-color: rgba(195, 194, 194, 0.1);
+}
+.what-we-do h3{
+    padding: 80px 0;
+}
+.home-service-section{
+    margin-top: 91px;
+    padding: 100px 0 70px;
+}
+.dnm_prodtitle{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #21B14B;
+}
+.dnm_prodSubTitle{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+}
+.dnm_prodTab,.dnm_prodWeb{
+    padding: 10px 20px 20px 20px;
+}
+.dnm_prodLink{
+    font-size: 15px;
+    padding-top: 10px;
+    color: #F58042;
+    cursor: pointer;
+}
+.dnm_prodTab a:hover, .dnm_prodTab a:hover{
+    color: #21B14B;    
+}
+
+.angled-section.svg-top {
+    top: -85px;
+}
+
+/* .angled-section {
+    position: absolute;
+    z-index: 20;
+    display: block;
+} */
+.angled-section.svg-bottom {
+    bottom: -85px;
+}
+:not(svg), :not(foreignObject) > svg {
+    transform-origin: 0px 0px;
+}
+@media only screen and (min-width:1501px) {
+    .homeMainBanner{
+        background-image: url(../images/menew/slide.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 700px;
+    }
+}
+
+@media only screen and (min-width:1099px) and (max-width:1500px){
+    .homeMainBanner{
+        background-image: url(../images/menew/Banner1.png);
+        margin-top: 20px;
+        height: calc(100%-90px);
+        background-size: 80% 100%;
+        height: calc(100vh - 90px);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .bannerContent {
+        padding-top:120px;
+    }
+      .bannerContent h1{
+        line-height: 57px;
+        font-size: 40px;
+        padding: 20px 0 40px; 
+        font-weight: 400;
+    }
+   
+}
+
+@media only screen and (min-width:991px) and (max-width:1098px){
+    .homeMainBanner{
+        background-image: url(../images/menew/Banner1.png);
+        margin-top: -60px;
+        min-height: 700px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .bannerContent {
+        padding-top:100px;
+    }
+    .bannerContent h1{
+        font-size: 32px;
+        padding: 20px 0 40px;
+        font-weight: 400;
+        line-height: 57px;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:990px){
+    .homeMainBanner{
+        background-image: url(../images/menew/mobBanner.jpg);
+        min-height: 500px;
+        margin-top: -35px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .bannerContent {
+        padding-top:120px;
+    }
+      .bannerContent h1{
+        font-size: 30px;
+        padding: 30px 0;
+        font-weight: 500;
+
+    }
+}
+@media only screen and (max-width:499px){
+    .homeMainBanner{
+        background-image: url(../images/menew/mobBanner.jpg);
+        margin-top: -30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 300px;
+    }
+    .bannerContent {
+        padding-top:60px;
+    }
+    .bannerContent h1{
+        font-size: 20px;
+        padding: 25px 0;
+    }
+}
