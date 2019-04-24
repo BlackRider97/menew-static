@@ -57,6 +57,31 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     text-align: center;
     margin: 60px 0px 0 0 ;
 }
+.dmn_fillerBlock{
+    background-image: url(../images/menew/fillerBack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 120px;
+    text-align: center;
+    margin-top: -3px;
+}
+.dmn_fillerBlock .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dmn_fillerBlock .container h3{
+    text-align: left;
+    width: 60%;
+    line-height: 40px;
+}
+.dmn_fillerBlock .container .dmn_contactBtn{
+    max-width: 35%;
+    text-align: right;
+} 
+.dmn_fillerBlock .container .dmn_contactBtn a{
+    margin-top: 0px !important;
+}
 .dmn_fillerSec{
     background-image: url(../images/menew/back.jpg);
     background-repeat: no-repeat;
@@ -105,6 +130,35 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     background-image: url(../images/menew/backCommon.png);
     background-size: contain;
     background-repeat: repeat;
+}
+.company-seo-text{
+    padding: 100px 0 60px;
+    text-align: center;
+}
+.company-seo-text .text{
+    padding: 50px 0;
+}
+.company-seo-text .icon1, .company-seo-text .icon3{
+    width: 200px;
+    padding-top: 0px;
+    position: relative;
+    z-index: 999;
+}
+.company-seo-text .icon2, .company-seo-text .icon4{
+    width: 200px;
+    position: relative;
+    z-index: 999;
+}
+.company-seo-text .icon1{
+    margin-left: 105px;
+
+}
+.company-seo-text .icon3{
+    margin-left: -105px;
+}
+.company-seo-text img.engine_icon{
+    width: 30%;
+    display: inline-block;
 }
 .testimonial-section{
     background-color: rgba(195, 194, 194, 0.1);

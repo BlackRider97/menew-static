@@ -1343,16 +1343,17 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 .pricing-plan-one .nav-tabs > li.active > a:hover,
 .pricing-plan-one .nav-tabs > li.active > a:focus {color: #fff;}
 .pricing-plan-one .tab-content .left-side {
-  width: 43%;
-  background: #2adc65;
+  width: 50%;
   text-align: center;
-  color: #fff;
-  padding: 50px 0 0 0;
+  color: #2adc65;
+  padding: 30px 0 30px 0;
+  box-shadow: 0px 3px 35px 0px rgba(160, 190, 212, 0.22);
+
 }
 .pricing-plan-one .tab-content .left-side span {
   font-family: 'Lato', sans-serif;
-  font-weight: 900;
-  font-size: 60px;
+  font-weight: 400;
+  font-size: 40px;
   display: inline-block;
 }
 .pricing-plan-one .tab-content .left-side span sup {
@@ -1368,9 +1369,9 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 }
 .pricing-plan-one .tab-content .left-side h6 {
   font-weight: 300;
-  font-size: 24px;
-  color: #fff;
-  padding: 22px 0 62px 0;
+  font-size: 18px;
+  color: #2adc65;
+  padding: 22px 0 20px 0;
 }
 .pricing-plan-one .tab-content .left-side a {
   display: block;
@@ -1378,12 +1379,12 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   font-weight: 300;
   font-size: 72px;
   line-height: 166px;
-  background: #06d048;
-  color: #fff;
+  /* background: #06d048; */
+  color: #2adc65;
 }
 .pricing-plan-one .tab-content .right-side {
   width: 57%;
-  background: #fff;
+  background: #2adc65;
   padding:65px 10px 73px 45px;
 }
 .pricing-plan-one .tab-content .right-side h6 {
@@ -1460,13 +1461,13 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 }
 .home-blog-section .single-blog {margin-bottom: 85px;}
 /*----------------------- Footer ---------------------*/
-footer.bg-one {background: url(../images/home/footer.png) no-repeat center center;background-size: cover;}
-footer.bg-two {
+/* footer.bg-one {background: url(../images/home/footer.png) no-repeat center center;background-size: cover;} */
+/* footer.bg-two {
   background: url(../images/home/footer2.jpg) no-repeat center center;background-size: cover;
   padding-top: 150px;
-}
+} */
 
-footer {padding-top:180px;}
+footer {padding-top:55px;}
 footer .footer-logo h5 a {
   font-weight: 600;
   font-size: 16px;
@@ -1509,7 +1510,7 @@ footer .bottom-footer ul li h3 {
   font-weight: 600;
 }
 footer .row [class*='col-'] {margin-bottom: 60px;}
-footer .bottom-footer {padding: 25px 0 70px 0;}
+footer .bottom-footer {padding: 0px 0 20px 0;}
 #svag-shape {position: absolute;z-index: -999;}
 
 /*-------------------------- Home Version 3 ---------------------------*/
@@ -1543,10 +1544,10 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
 /*----------------------- Company CEO Text -------------------*/
 .company-seo-text p {margin: 30px 0 50px 0;}
 .company-seo-text h5 {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 35px;
-  color: #000000;
+  font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #000000;
 }
 .company-seo-text h6 {
   font-size: 17px;
@@ -1568,16 +1569,17 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
   margin-top: -1px;
 }
 .company-seo-text a {
+  margin-top: 80px;
   width: 200px;
   line-height: 55px;
   text-align: center;
-  color: #fff;
   font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 1.4px;
-  background: #0dda8f;
+  color: #ffffff;
+  padding-right: 0px;
+  background: #21B14B;
+  border-radius: 30px;
 }
-.company-seo-text img {border-radius: 50%;}
+/* .company-seo-text img {border-radius: 50%;} */
 /*----------------------------- Short Banner ----------------------*/
 .short-banner {
   background: url(../images/home/13.jpg) no-repeat center;
