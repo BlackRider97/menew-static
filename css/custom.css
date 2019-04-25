@@ -387,3 +387,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
 .pricing-plan-one {padding: 20px;}
 
 }
+.pricingSec img{
+    display: inline-block;
+    width: 30%;
+}
