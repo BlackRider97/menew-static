@@ -194,11 +194,9 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     }
     .dmn_fillerBlock .container h3{
         text-align: left;
-        width: 60%;
         line-height: 40px;
     }
     .dmn_fillerBlock .container .dmn_contactBtn{
-        max-width: 35%;
         text-align: right;
     } 
     .company-seo-text .icon1, .company-seo-text .icon3{
@@ -250,11 +248,9 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     }
     .dmn_fillerBlock .container h3{
         text-align: left;
-        width: 60%;
         line-height: 40px;
     }
     .dmn_fillerBlock .container .dmn_contactBtn{
-        max-width: 35%;
         text-align: right;
     } 
     .company-seo-text .icon1, .company-seo-text .icon3{
@@ -327,11 +323,9 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
 
     .dmn_fillerBlock .container h3{
         text-align: left;
-        width: 60%;
         line-height: 40px;
     }
     .dmn_fillerBlock .container .dmn_contactBtn{
-        max-width: 35%;
         text-align: right;
     } 
     .company-seo-text .icon1, .company-seo-text .icon3{
@@ -384,8 +378,13 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     .company-seo-text .text{
         padding: 20px 0;
     }
-.pricing-plan-one {padding: 20px;}
-
+    .pricing-plan-one {padding: 20px;}
+    .testimonial-section{
+        padding-bottom: 70px;
+    }
+    .pricingSec img{
+        padding-top: 50px;
+    }
 }
 .pricingSec img{
     display: inline-block;
