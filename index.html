@@ -14,12 +14,12 @@
 	<meta name="msapplication-navbutton-color" content="#2c2c2c">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#2c2c2c">
-
-	<title>DeMeNew</title>
+	<title>DeMeNew - AI Powered Restaurant Solutions</title>
 
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="56x56" href="images//menew/favicon.png">
 
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 	<!-- Main style sheet -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -27,8 +27,6 @@
 
 	<!-- responsive style sheet -->
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
-
-
 	<!-- Fix Internet Explorer ______________________________________-->
 
 	<!--[if lt IE 9]>
@@ -36,13 +34,10 @@
 			<script src="vendor/html5shiv.js"></script>
 			<script src="vendor/respond.js"></script>
 		<![endif]-->
-
-
 </head>
 
 <body>
 	<div class="main-page-wrapper">
-
 		<!--Loading Transition-->
 		<div id="loader-wrapper">
 			<div id="loader">
@@ -56,7 +51,6 @@
 				</ul>
 			</div>
 		</div>
-
 		<!--Theme Header-->
 		<header class="theme-menu-wrapper full-width-menu">
 			<div class="container header-wrapper">
@@ -67,25 +61,27 @@
 							<img src="images/menew/logo1.png" alt="Logo">
 						</a>
 					</div>
-
 					<!-- ============================ Theme Menu ========================= -->
 					<nav class="theme-main-menu float-right navbar" id="mega-menu-wrapper">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+							<!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
 								<span class="sr-only">Toggle navigation</span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
-							</button>
+							</button> -->
+							<div class="demoBtn hidden-lg hidden-md">
+								<a href="#" class="tran3s" data-toggle="modal" data-target=".signUpModal">Request a Demo</a>
+							</div>
 						</div>
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="navbar-collapse-1">
 							<ul class="nav">
-								<li class="dropdown-holder menu-list active">
+								<!-- <li class="dropdown-holder menu-list active">
 									<a href="#" class="tran3s">About</a>
-								</li>
-								<li class="dropdown-holder menu-list">
+								</li> -->
+								<!-- <li class="dropdown-holder menu-list">
 									<a href="index.html" class="tran3s">Products</a>
 									<ul class="sub-menu">
 										<li>
@@ -98,73 +94,64 @@
 											<a href="index-3.html">Smart Kiosk</a>
 										</li>
 									</ul>
-								</li>
-								<li class="dropdown-holder menu-list">
+								</li> -->
+								<!-- <li class="dropdown-holder menu-list">
 									<a href="#" class="tran3s">Careers</a>
-								</li>
+								</li> -->
 								<!-- <li class="dropdown-holder menu-list">
 									<a href="#" class="tran3s">More</a>
 								</li> -->
-								<li class="dropdown-holder menu-list">
+								<!-- <li class="dropdown-holder menu-list">
 									<a href="#" class="tran3s">Contact</a>
-								</li>
+								</li> -->
 								<li class="demoBtn">
-									<a href="#" class="tran3s">Request a Demo</a>
+									<a href="#" class="tran3s" data-toggle="modal" data-target=".signUpModal">Request a Demo</a>
 								</li>
 							</ul>
 						</div>
-						<!-- /.navbar-collapse -->
 					</nav>
-					<!-- /.theme-main-menu -->
 				</div>
-				<!-- /.clearfix -->
 			</div>
 		</header>
-		<!-- /.theme-menu-wrapper -->
-		<div class="homeMainBanner">
-			<div class=" bannerContent">
-				<div class="row">
-					<div class="col-md-6 col-md-offset-1 col-sm-10 col-xs-12 bannerSlide">
-						<!-- <h5 class="wow fadeInUp animated">We’r Awesome</h5> -->
-						<!-- <p class="wow fadeInUp animated hidden-xs" data-wow-delay="0.2s">
-							Helping restaurants make more money
-						</p> -->
-						<h1 class="wow fadeInUp animated hidden-xs" data-wow-delay="0.2s">
-							<span>MeNew's AI Powered</span>
-							<br>
-							<span> Restaurant Solutions helps </span>
-							<br>
-							<span> </span>
-							<a href="" class="typewrite" data-period="2000" data-type='[ "Increase Revenue", "Retain Customers", "Reduce Wastage ", "Gain Customer Insights " ]'>
-								<span class="wrap"></span>
-							</a>
-						</h1>
-						<!-- <p class="wow fadeInUp animated hidden-sm hidden-lg hidden-md" data-wow-delay="0.2s">
-							Helping restaurants make more money
-						</p> -->
-						<h1 class="wow fadeInUp animated hidden-sm hidden-lg hidden-md" data-wow-delay="0.2s">
-							<span>MeNew's AI Powered</span>
-							<br>
-							<span> Restaurant Solutions helps </span>
-							<br>
-							<span> </span>
-							<a href="" class="typewrite" data-period="2000" data-type='[ "Increase Revenue", "Retain Customers", "Reduce Wastage ", "Gain Customer Insights " ]'>
-								<span class="wrap"></span>
-							</a>
-						</h1>
 
-						<!-- <div class="videoBtn ">
-							<a href="#contact" class="tran3s wow fadeInUp animatede" data-wow-delay="0.3s">Play a video</a>
-						</div> -->
+		<!-- /.MAIN BANNER -->
+		<div class="homeMainBanner">
+			<div class="container bannerContent">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bannerSlide">
+						<h1 class="wow fadeInUp animated" data-wow-delay="0.2s">
+							<span>MeNew's AI Powered</span>
+							<br>
+							<span> Restaurant Solutions helps </span>
+							<br>
+							<span> </span>
+							<a href="" class="typewrite" data-period="2000" data-type='[ "Increase Revenue", "Retain Customers", "Reduce Wastage ", "Gain Customer Insights " ]'>
+								<span class="wrap"></span>
+							</a>
+						</h1>
+						<!-- <h1 class="wow fadeInUp animated hidden-sm hidden-lg hidden-md" data-wow-delay="0.2s">
+							<span>MeNew's AI Powered</span>
+							<br>
+							<span> Restaurant Solutions helps </span>
+							<br>
+							<span> </span>
+							<a href="" class="typewrite" data-period="2000" data-type='[ "Increase Revenue", "Retain Customers", "Reduce Wastage ", "Gain Customer Insights " ]'>
+								<span class="wrap"></span>
+							</a>
+						</h1> -->
 						<div class="demoBtn">
-							<a href="#contact" class="tran3s wow fadeInUp animated" data-wow-delay="0.3s">request a demo</a>
+							<a href="#" class="tran3s wow fadeInUp animated" data-wow-delay="0.3s" data-toggle="modal" data-target=".signUpModal">request a demo</a>
 						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bannerImage">
+						<img src="images/menew/Banner-Final.png">
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- /.MAIN BANNER -->
 
-		<!--Resturant Solutions-->
+		<!--SECTION2 FILLER-->
 		<div class="dmn_solSec">
 			<div class="container">
 				<h3>Know Your Customers Order Before They Do!</h3>
@@ -173,9 +160,9 @@
 				</h6>
 			</div>
 		</div>
-		<!-- /.Resturant Solutions -->
+		<!--SECTION2 FILLER-->
 
-		<!--What We Do-->
+		<!--WHAT WE DO BENEFITS-->
 		<div class="what-we-do">
 			<div class="container">
 				<h3>Why Choose MeNew For Your Restaurant?
@@ -184,7 +171,7 @@
 					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft">
 						<div class="single-block">
 							<div class="icon color-one">
-								<img class="fa fa-camera-retro pull-left" src="images/menew/star-01.png">
+								<img class="fa fa-camera-retro pull-left" src="images/benefits/boost-ticket.png">
 							</div>
 							<h6>Boost Average Ticket Size</h6>
 							<h5>
@@ -195,7 +182,7 @@
 					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp">
 						<div class="single-block">
 							<div class="icon color-two middle-block">
-								<img class="fa fa-camera-retro pull-left" src="images/menew/helps.png">
+								<img class="fa fa-camera-retro pull-left" src="images/benefits/table-turnaround.png">
 							</div>
 							<h6>Higher Table Turn Around</h6>
 							<h5>
@@ -203,10 +190,10 @@
 							</h5>
 						</div>
 					</div>
-					<div class="col-md-4 hidden-sm col-xs-12 wow fadeInRight">
+					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight">
 						<div class="single-block">
 							<div class="icon color-three">
-								<img class="fa fa-camera-retro pull-left" src="images/menew/food.png">
+								<img class="fa fa-camera-retro pull-left" src="images/benefits/food.png">
 							</div>
 							<br>
 							<h6>Reduce Food Wastage</h6>
@@ -218,7 +205,7 @@
 					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft">
 						<div class="single-block">
 							<div class="icon color-one">
-								<img class="fa fa-camera-retro pull-left" src="images/menew/loyalty.png">
+								<img class="fa fa-camera-retro pull-left" src="images/benefits/Customer-Loyalty.png">
 							</div>
 							<h6>Increase Customer Loyalty</h6>
 							<h5>
@@ -226,21 +213,21 @@
 							</h5>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft">
+					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp">
 						<div class="single-block">
 							<div class="icon color-one">
-								<img class="fa fa-camera-retro pull-left" src="images/menew/feedback.png">
+								<img class="fa fa-camera-retro pull-left" src="images/benefits/menu.png">
 							</div>
 							<h6>Menu optimization</h6>
 							<h5>
-								<a class="tran3s">Dynamic menu pricing tactics that help you boost your bottom line. </a>
+								<a class="tran3s">Dynamic menu pricing tactics that help you boost your bottom line </a>
 							</h5>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft">
+					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight">
 						<div class="single-block">
 							<div class="icon color-one">
-								<img class="fa fa-camera-retro pull-left" src="images/menew/pricing.png">
+								<img class="fa fa-camera-retro pull-left" src="images/benefits/cost.png">
 							</div>
 							<h6>Cost Saving </h6>
 							<h5>
@@ -249,19 +236,17 @@
 						</div>
 					</div>
 				</div>
-				<!-- /.row -->
 			</div>
-			<!-- /.container -->
 		</div>
-		<!-- /.what-we-do -->
+		<!-- WHAT WE DO BENEFITS -->
+
+		<!--STATS FILLER-->
 		<svg class="angled-section svg-bottom" preserveAspectRatio="none" viewBox="0 0 86 86" width="100%" height="86">
 			<polygon points="0,0 0,86 86,0" style="fill:#ffffff;"></polygon>
 		</svg>
-		<!--Resturant Solutions-->
 		<div class="dmn_fillerSec">
 			<div class="container">
-				<h3>Get more out of every order you recieve!</h3>
-
+				<h3>Get more out of every order you receive!</h3>
 				<div class="dmn_contactBtn">
 					<a href="#" class="tran3s">Contact us</a>
 				</div>
@@ -269,181 +254,257 @@
 		</div>
 		<!-- <svg class="angled-section svg-top" preserveAspectRatio="none" viewBox="0 0 86 86" width="100%" height="86">
 			<polygon points="0,86 86,0 86,86"style="fill:#ffffff;"></polygon></svg> -->
-		<!-- /.Resturant Solutions -->
 
-		<!--Home Service Section-->
+		<!--STATS FILLER-->
+
+
+		<!--SMART SOLUTION PRODUCTS-->
 		<div class="home-service-section">
 			<div class="container">
 				<div class="col-md-12 main-container">
 					<div class="dnm_prodTitle">
 						<h3>Our Smart Solutions</h3>
-						<h6>Make Your Restaurant a Smart Restaurant with MeNew
+						<h6>Make Your Restaurant a Smart Restaurant with MeNew.
 							<br> Mange your entire restaurant with our end-to-end restaurant management platform.
 						</h6>
 					</div>
-					<div class="col-md-6">
-						<img src="images/menew/laptop.png" alt="Image" class="wow fadeInLeft">
+					<div class="col-md-7 col-xs-12 prod_img">
+						<img c;ass="prodImg" src="images/menew/Smart-Solutions-final.png" alt="Image" class="wow fadeInLeft">
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-5 col-xs-12 prodsBlock">
 						<div class="dnm_prodTab">
 							<h5 class="dnm_prodtitle">Smart Tab
 							</h5>
-							<p class="dnm_prodSubTitle">Personal Waiter at every Table</p>
-							<a class="tran3s hvr-icon-wobble-horizontal dnm_prodLink">More Details
+							<p class="dnm_prodSubTitle">Smart menu at every table</p>
+							<a class="tran3s hvr-icon-wobble-horizontal dnm_prodLink">Know More
 								<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 							</a>
 						</div>
 						<div class="dnm_prodWeb">
-							<h5 class="dnm_prodtitle">Smart Web
+							<h5 class="dnm_prodtitle">Smart Kiosk
 							</h5>
-							<p class="dnm_prodSubTitle">Personal Waiter at every Table</p>
-							<a class="tran3s hvr-icon-wobble-horizontal dnm_prodLink">More Details
+							<p class="dnm_prodSubTitle">Your customers new best friend</p>
+							<a class="tran3s hvr-icon-wobble-horizontal dnm_prodLink">Know More
 								<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 							</a>
 						</div>
 					</div>
 				</div>
-				<!-- /.main-container -->
 			</div>
-			<!-- /.container -->
 		</div>
-		<!-- /.home-service-section -->
+		<!-- /.SMART SOLUTION PRODUCTS -->
+
+		<!-- /.REQUEST DEMO FILLER -->
 		<div class="dmn_fillerBlock">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-sm-12 col-xs-12">
-						<h3>So, what are you waiting for? Start your journey with MeNew now!</h3>
+						<h3>What are you waiting for? Start your journey with MeNew now!</h3>
 					</div>
 					<div class="col-md-4 col-sm-12 col-xs-12">
 						<div class="dmn_contactBtn">
-							<a href="#" class="tran3s">REQUEST A DEMO</a>
+							<a href="#" class="tran3s" data-toggle="modal" data-target=".signUpModal">REQUEST A DEMO</a>
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</div>
-		<!-- Smart Engine-->
+		<!-- /.REQUEST DEMO FILLER -->
+
+		<!-- SMART ENGINE-->
 		<div class="company-seo-text">
 			<div class="container">
+				<div class="dnm_prodTitle">
+					<h3>Menew’s Smart Engine</h3>
+				</div>
 				<div class="row">
-					<div class="dnm_prodTitle">
-						<h3>Menew’s Smart Engine</h3>
+					<div class="col-md-offset-3 col-md-6 col-xs-12 smartEngineImg">
+						<div class="icon1">
+							<img src="images/menew/demo.png" alt="">
+							<h5 class="engine-name">MeNew Engine
+							</h5>
+						</div>
 					</div>
-					<div class="col-md-8 col-xs-12 smartEngineImg hidden-lg hidden-md">
-						<img src="images/menew/demo.png" alt="">
+					<div class="col-md-4 col-xs-12">
+						<div class="text icon2">
+							<div class="">
+								<img class="engine_icon" src="images/menew/Customer-Interact.png">
+								<h5>Customer Interaction
+								</h5>
+							</div>
+							<div class="eng_arrow1 hidden-sm hidden-xs">
+								<span class="arrow">
+									<img src="images/menew/arrow1.png">
+								</span>
+							</div>
+						</div>
+						<div class="text icon3">
+							<div class="">
+								<img class="engine_icon" src="images/menew/Menu-Data.png">
+								<h5>Restaurant Menu Data
+								</h5>
+							</div>
+							<div class="eng_arrow3 hidden-sm hidden-xs">
+								<span class="arrow">
+									<img src="images/menew/arrow.png">
+								</span>
+							</div>
+						</div>
 					</div>
-					<div class="col-md-2 col-xs-6">
-						<div class="text icon1">
-							<img class="engine_icon" src="images/menew/FINGER-01.png">
+					<div class="col-md-4 col-xs-12 smartEngineImg hidden-sm hidden-xs">
+						<div class="icon4">
+							<img src="images/menew/Centerimage-Smart-Engine).png" alt="">
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12">
+						<div class="text icon5">
+							<div class="">
+								<img class="engine_icon" src="images/menew/operation-data.png">
+								<h5>Restaurant Operation Data
+								</h5>
+							</div>
+							<div class="eng_arrow5 hidden-sm hidden-xs">
+								<span class="arrow">
+									<img src="images/menew/arrow1.png">
+								</span>
+							</div>
+						</div>
+						<div class="text icon6 ">
+							<img class="engine_icon" src="images/menew/Transaction.png">
 							<h5>Transaction Data
 							</h5>
 						</div>
-						<div class="text icon2">
-							<img class="engine_icon" src="images/menew/Untitled-7-01.png">
-							<h5>Restaurant Menu Data
-							</h5>
-						</div>
-					</div>
-					<div class="col-md-8 col-xs-12 smartEngineImg hidden-xs">
-						<img src="images/menew/demo.png" alt="">
-					</div>
-					<div class="col-md-2 col-xs-6">
-						<div class="text icon3">
-							<img class="engine_icon" src="images/menew/hand-01.png">
-
-							<h5>Restaurant Operation Data
-							</h5>
-						</div>
-						<div class="text icon4">
-							<img class="engine_icon" src="images/menew/module-01.png">
-
-							<h5>Customer Interaction
-							</h5>
+						<div class="eng_arrow6 hidden-sm hidden-xs">
+							<span class="arrow">
+								<img src="images/menew/arrow6.png">
+							</span>
 						</div>
 					</div>
 				</div>
-				<div class="engineKnowMore">
+			</div>
+			<!-- <div class="engineKnowMore">
 					<a class="tran3s hvr-icon-wobble-horizontal">More Details
 						<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 					</a>
-				</div>
-			</div>
+				</div> -->
 		</div>
+
+		<!--PRICING-->
 		<div class="dmn_solSec">
 			<div class="container">
 				<h3>Our Pricing </h3>
-				<h6>Get more out of every order you receive. Choose the plan that is best for you!
+				<h6>No hidden charges, choose the plan that is best for you!
 				</h6>
 			</div>
 		</div>
-		<!--Pricing Plan Style One-->
+		<!--Pricing-->
 		<div class="pricing-plan-one">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 col-xs-12 wow ">
+					<div class="pricing_opt1 text-center">
+						<h3>
+							Software Licensing Subscription
+						</h3>
+					</div>
+					<div class="col-md-offset-3 col-md-8 col-xs-12 wow fadeInRight">
 						<div class="tab-content">
 							<div id="monthly" class="tab-pane fade in active">
 								<div class="clearfix">
 									<div class="float-left left-side">
 										<span>
-											&#8377; 1100
+											&#8377;1100
+											<span class="pricePer">/ month</span>
 										</span>
-										<h6>Paid Monthly</h6>
-										<p>Software Licensing Subscription</p>
+										<h6>Pay As You Go</h6>
 									</div>
 									<div class="float-left left-side">
 										<span>
-											&#8377; 1
+											&#8377;1
+											<span class="pricePer">/ order</span>
 										</span>
-										<h6>Per Order</h6>
-										<p>Software Licensing Subscription</p>
+										<h6>Pay as you Grow</h6>
 									</div>
 								</div>
 							</div>
 						</div>
-
 					</div>
-					<!-- /.col- -->
-					<div class="pricingSec col-md-6 col-xs-12 wow fadeInLeft">
-						<div class="theme-title text-center">
-							<img src="images/menew/pricing.png">
+				</div>
+				<div class="row">
+					<div class="pricing_opt1 pricing_opt2 text-center">
+						<h3>
+							Hardware
+						</h3>
+					</div>
+					<div class="pric_hardware_plan text-center">
+						<div class="pricing_hardware col-md-4 col-xs-12 wow fadeInRight">
+							<div class="pricing_block">
+								<h6>Rs. 900 / month</h6>
+								<p>For Samsung 7” Tab </p>
+							</div>
+						</div>
+						<div class="pricing_hardware col-md-4 col-xs-12 wow fadeInRight">
+							<div class="pricing_block">
+								<h6>Rs. 1100 / month</h6>
+								<p>For Samsung 10” Tab </p>
+							</div>
+						</div>
+						<div class="pricing_hardware col-md-4 col-xs-12 wow fadeInRight">
+							<div class="pricing_block">
+								<h6>Rs. 2500 / month</h6>
+								<p>For Samsung 10” Tab </p>
+							</div>
 						</div>
 					</div>
 				</div>
-				<!-- /.row -->
+				<div class="row">
+					<div class="pricing_opt1 pricing_opt2 text-center">
+						<h3>
+							Accessories On Actuals
+						</h3>
+					</div>
+					<div class="pric_hardware_plan text-center">
+						<div class="pricing_acc col-md-4 col-xs-4 wow fadeInRight">
+							<h6>Tablet Stand</h6>
+						</div>
+						<div class="pricing_acc col-md-4 col-xs-4 wow fadeInRight">
+							<h6>KOT 2” Printer</h6>
+						</div>
+						<div class="pricing_acc col-md-4 col-xs-4 wow fadeInRight">
+							<h6>KOT 3” Printer</h6>
+						</div>
+					</div>
+				</div>
 			</div>
-			<!-- /.container -->
 		</div>
 		<!-- /.pricing-plan-one -->
+
+
 		<!-- Testimonial-->
-		<div class="testimonial-section">
-			<div class="image-box wow fadeInLeft">
-				<svg version="1.1" class="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="854"
-				 height="630">
-					<clipPath class="clip1">
-						<use xlink:href="#shape-one" />
-					</clipPath>
-					<g clip-path="url(#shape-one)">
-						<image width="854" height="630" href="images/menew/banner1.jpg" class="image-shape">
-						</image>
-					</g>
-				</svg>
-			</div>
-			<div class="theme-shape-four wow fadeInLeft"></div>
+		<div class="dmn_TestimonialfillerBlock">
 			<div class="container">
-				<div class="main-container col-md-6 col-md-offset-6">
-					<div class="dnm_prodTitle">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12 text-center">
 						<h3>Testimonials</h3>
+						<h6>Don’t just take our word for it. Grow your business and listen to our happy customers.</h6>
 					</div>
+				</div>
+			</div>
+		</div>
+		<div class="testimonial-section">
+			<div class="container">
+				<div class="main-container testimonial-image text-center col-md-6 hidden-sm hidden-xs">
+					<img src="images/menew/Testimonials.png">
+				</div>
+				<div class="main-container col-md-6 col-xs-12">
 					<div class="testimonial-slider">
 						<div class="item">
 							<div class="wrapper">
 								<p>Their testimonial videos aren't production quality, but they get the message across, cover useful &amp; relevant
 									information which goes to show you don't need to invest thousands in production get some testimonial videos up with
-									quality. </p>
+									quality.
+								</p>
 								<div class="name clearfix">
-									<!-- <img src="images/home/3.jpg" alt=""> -->
+									<img src="images/menew/mani.png" alt="">
 									<h5>XYZ</h5>
 									<!-- <span>Gazipur</span> -->
 								</div>
@@ -453,11 +514,10 @@
 							<div class="wrapper">
 								<p>Their testimonial videos aren't production quality, but they get the message across, cover useful &amp; relevant
 									information which goes to show you don't need to invest thousands in production get some testimonial videos up with
-									quality. </p>
+									quality.
+								</p>
 								<div class="name clearfix">
-									<!-- <img src="images/home/4.jpg" alt=""> -->
 									<h5>XYZ</h5>
-									<!-- <span>Uttara</span> -->
 								</div>
 							</div>
 						</div>
@@ -466,146 +526,144 @@
 			</div>
 		</div>
 		<!-- /.testimonial-section -->
-		<!-- <div class="dmn_fillerBlock">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-sm-12 col-xs-12">
-						<h3></h3>
-					</div>
-					<div class="col-md-4 col-sm-12 col-xs-12">
-						<div class="dmn_contactBtn">
-							<a href="#" class="tran3s"></a>
-						</div>
-					</div>
-				</div>
 
-			</div>
-		</div> -->
-		<div class="dmn_fillerBlock">
-			<div class="container">
+		<!--CONTACT US FILLER-->
+		<div class="dmn_contactfillerBlock text-center">
+			<div class="container dmn_contactfiller">
 				<div class="row">
-					<div class="col-md-8 col-sm-12 col-xs-12">
+					<div class="col-md-12 col-sm-12 col-xs-12">
 						<h3>Feel free to get in touch with us!</h3>
 					</div>
-					<div class="col-md-4 col-sm-12 col-xs-12">
-						<div class="dmn_contactBtn">
-							<a href="#" class="tran3s">Contact us</a>
-						</div>
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<form class="contact_formBlock">
+							<div class="row contactForm">
+								<div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-6 contactFormTab">
+									<input type="text" placeholder="Name*">
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-6 contactFormTab">
+									<input type="text" placeholder="Phone*">
+								</div>
+								<div class="dmn_contactBtn col-md-12 col-xs-12">
+									<a href="#" class="tran3s">Contact us</a>
+								</div>
+							</div>
+						</form>
 					</div>
 				</div>
 
 			</div>
 		</div>
-		<!--Footer
-			-->
+
+		<!--Footer-->
 		<footer class="bg-one">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-md-3 col-sm-3 col-xs-12">
 						<div class="footer-logo">
 							<a href="index.html">
-								<img src="images/menew/logo1.png" alt="Logo">
+								<img src="images/menew/footer-logo.png" alt="Logo">
 							</a>
 							<h5>
 								<a href="#" class="tran3s">contact@demenew.com</a>
 							</h5>
-							<h6 class="p-color">+91 9090909090</h6>
+							<h6 class="p-color">+91 9133330125</h6>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 footer-list">
+					<div class="col-md-3 col-sm-3 col-xs-12 footer-list">
 						<h4>Products</h4>
 						<ul>
 							<li>
 								<a href="#" class="tran3s">Smart Tab</a>
 							</li>
 							<li>
-								<a href="#" class="tran3s">Smart Web</a>
+								<a href="#" class="tran3s">Smart Kiosk</a>
 							</li>
 						</ul>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 footer-list">
+					<div class="col-md-3 col-sm-3 col-xs-12 footer-list">
 						<h4>Comapny</h4>
 						<ul>
 							<li>
 								<a href="#" class="tran3s">About Us</a>
 							</li>
-							<li>
+							<!-- <li>
 								<a href="#" class="tran3s">Careers</a>
-							</li>
+							</li> -->
 							<li>
 								<a href="#" class="tran3s">Contact</a>
 							</li>
 						</ul>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 footer-subscribe">
+					<div class="col-md-3 col-sm-3 col-xs-12 footer-list">
+						<h4>Contact</h4>
 						<ul>
 							<li>
-								<a href="" class="tran3s">
-									<i class="fa fa-facebook" aria-hidden="true"></i>
-								</a>
-							</li>
-							<li>
-								<a href="" class="tran3s">
-									<i class="fa fa-twitter" aria-hidden="true"></i>
-								</a>
-							</li>
-							<li>
-								<a href="" class="tran3s">
-									<i class="fa fa-instagram" aria-hidden="true"></i>
-								</a>
-							</li>
-							<li>
-								<a href="" class="tran3s">
-									<i class="fa fa-linkedin" aria-hidden="true"></i>
-								</a>
+								<a href="#" class="tran3s">#218, Legend Chimes,
+									<br>Kokapet, Hyderabad,
+									<br>Pincode: 500075</a>
 							</li>
 						</ul>
 					</div>
 				</div>
-				<!-- /.row -->
-
-				<div class="bottom-footer clearfix">
-					<p class="text-center">&copy; 2019
-						<a href="#" class="tran3s p-color">DeMeNew tech pvt ltd.</a>| All rights reserved</p>
+			</div>
+			<div class="bottom-footer">
+				<div class="container">
+					<div class="row clearfix">
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<p class="copyrightText">&copy; 2019
+								<a href="#" class="tran3s p-color">DeMeNew tech pvt ltd.</a>| All rights reserved</p>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12 footer-subscribe">
+							<ul>
+								<li>
+									<a href="" class="tran3s">
+										<i class="fa fa-facebook" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="" class="tran3s">
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="" class="tran3s">
+										<i class="fa fa-instagram" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="" class="tran3s">
+										<i class="fa fa-linkedin" aria-hidden="true"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
-			<!-- /.container -->
 		</footer>
 
 
-		<!-- Sign-Up Modal -->
+		<!-- Request DEMO Modal -->
 		<div class="modal fade signUpModal theme-modal-box" role="dialog">
 			<div class="modal-dialog">
 				<!-- Modal content-->
 				<div class="modal-content">
 					<div class="modal-body">
-						<h3>Login with Social Networks</h3>
-						<ul class="clearfix">
-							<li class="float-left">
-								<a href="#">
-									<i class="fa fa-facebook" aria-hidden="true"></i> facebook</a>
-							</li>
-							<li class="float-left">
-								<a href="#">
-									<i class="fa fa-google-plus" aria-hidden="true"></i> Google</a>
-							</li>
-							<li class="float-left">
-								<a href="#">
-									<i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
-							</li>
-							<li class="float-left">
-								<a href="#">
-									<i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a>
-							</li>
-						</ul>
+						<div class="formTitle">
+							<h3>See MeNew in action!</h3>
+							<p>Request a free demo today</p>
+						</div>
 						<form action="#">
-							<h6>
-								<span>or</span>
-							</h6>
 							<div class="wrapper">
-								<input type="text" placeholder="Username or Email">
-								<input type="password" placeholder="Password">
-								<ul class="clearfix">
+								<input type="text" placeholder="Name*" required>
+								<input type="text" placeholder="Email">
+								<input type="tel" placeholder="Phone*" required>
+								<input type="text" placeholder="Restaurant Name*" required>
+								<input type="text" placeholder="Location">
+								<input type="text" placeholder="Type of Business">
+								<input type="text" placeholder="No. of Outlets">
+								<!-- <textarea placeholder="Message" rows = "5" cols = "50"></textarea> -->
+								<!-- <ul class="clearfix">
 									<li class="float-left">
 										<input type="checkbox" id="remember">
 										<label for="remember">Remember Me</label>
@@ -613,8 +671,8 @@
 									<li class="float-right">
 										<a href="#" class="p-color">Lost Your Password?</a>
 									</li>
-								</ul>
-								<button class="p-bg-color hvr-trim-two">Login</button>
+								</ul> -->
+								<button class=" hvr-trim-two">Submit</button>
 							</div>
 						</form>
 					</div>
@@ -643,39 +701,41 @@
 				</defs>
 			</svg>
 		</div>
+	</div>
 
 
 
-		<!-- Js File_________________________________ -->
 
-		<!-- j Query -->
-		<script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
-		<!-- Bootstrap Select JS -->
-		<script type="text/javascript" src="vendor/bootstrap-select/dist/js/bootstrap-select.js"></script>
+	<!-- Js File_________________________________ -->
 
-		<!-- Bootstrap JS -->
-		<script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
+	<!-- j Query -->
+	<script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
+	<!-- Bootstrap Select JS -->
+	<script type="text/javascript" src="vendor/bootstrap-select/dist/js/bootstrap-select.js"></script>
 
-		<!-- Vendor js _________ -->
-		<!-- Camera Slider -->
-		<script type='text/javascript' src='vendor/Camera-master/scripts/jquery.mobile.customized.min.js'></script>
-		<script type='text/javascript' src='vendor/Camera-master/scripts/jquery.easing.1.3.js'></script>
-		<script type='text/javascript' src='vendor/Camera-master/scripts/camera.min.js'></script>
-		<!-- Mega menu  -->
-		<script type="text/javascript" src="vendor/bootstrap-mega-menu/js/menu.js"></script>
+	<!-- Bootstrap JS -->
+	<script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
 
-		<!-- WOW js -->
-		<script type="text/javascript" src="vendor/WOW-master/dist/wow.min.js"></script>
-		<!-- owl.carousel -->
-		<script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
-		<!-- js count to -->
-		<script type="text/javascript" src="vendor/jquery.appear.js"></script>
-		<script type="text/javascript" src="vendor/jquery.countTo.js"></script>
-		<!-- Fancybox -->
-		<script type="text/javascript" src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+	<!-- Vendor js _________ -->
+	<!-- Camera Slider -->
+	<script type='text/javascript' src='vendor/Camera-master/scripts/jquery.mobile.customized.min.js'></script>
+	<script type='text/javascript' src='vendor/Camera-master/scripts/jquery.easing.1.3.js'></script>
+	<script type='text/javascript' src='vendor/Camera-master/scripts/camera.min.js'></script>
+	<!-- Mega menu  -->
+	<script type="text/javascript" src="vendor/bootstrap-mega-menu/js/menu.js"></script>
 
-		<!-- Theme js -->
-		<script type="text/javascript" src="js/theme.js"></script>
+	<!-- WOW js -->
+	<script type="text/javascript" src="vendor/WOW-master/dist/wow.min.js"></script>
+	<!-- owl.carousel -->
+	<script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
+	<!-- js count to -->
+	<script type="text/javascript" src="vendor/jquery.appear.js"></script>
+	<script type="text/javascript" src="vendor/jquery.countTo.js"></script>
+	<!-- Fancybox -->
+	<script type="text/javascript" src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+
+	<!-- Theme js -->
+	<script type="text/javascript" src="js/theme.js"></script>
 
 	</div>
 	<!-- /.main-page-wrapper -->
@@ -734,7 +794,7 @@
 		// INJECT CSS
 		var css = document.createElement("style");
 		css.type = "text/css";
-		css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+		css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #F58042}";
 		document.body.appendChild(css);
 	};
 </script>

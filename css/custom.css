@@ -1,19 +1,28 @@
 /*SLIDER SECTION*/
-.logo img{
-    max-width: 60%;
-}
 #mega-menu-wrapper .nav>li{
     cursor: pointer;
+}
+.homeMainBanner{
+    background-image: url(../images/menew/bannerBack.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 60px;
 }
 .bannerContent p{
     color: #21B14B;
     font-weight: 600;
     font-size: 23px;
 }
-.bannerContent h1 a{
-    color: #F58042;
+.bannerContent h1{
+    color: #0C332B;
+    font-weight: 500;
 }
-header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a, .demoBtn a, .videoBtn a, .dmn_contactBtn a{
+.bannerContent h1 a{
+    color: #0C332B;
+    font-weight: 500;
+}
+header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a, .demoBtn a, .dmn_contactBtn a{
     line-height: 36px;
     font-weight: 600;
     font-size: 13px;
@@ -22,10 +31,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a, .demoBtn a, .video
     text-transform: uppercase;
     border-radius: 30px;
     width: 165px;
-    letter-spacing: 0.8px;
-}
-.bannerSlide{
-    padding-left: 45px;
+    letter-spacing: 0.9px;
 }
 header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a, .demoBtn a{
     color: #ffffff;
@@ -37,45 +43,78 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a, .demoBtn a{
     background: #21B14B;
     text-align: center;
     margin-top: 45px;
-}
-.videoBtn a{
-    color: #000000;
-    background: #ffffff;
-    border: 2px solid #21B14B;
-    margin: 0 0 20px 0px;
-    cursor: pointer !important;
+    letter-spacing: 1px;
 }
 header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:before {display: none;}
 header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;}
 
-/*SOLUTION SECTION*/
+/* SECTION 2 FILLER*/
 .dmn_solSec{
-    background-image: url(../images/menew/back1.png);
+    background-image: url(../images/menew/filler1.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px 0;
+    background-size: 100% 100%;
+    padding: 115px 0 100px 0;
     text-align: center;
-    margin: 60px 0px 0 0 ;
 }
-.dmn_fillerBlock{
-    background-image: url(../images/menew/fillerBack.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px 0 120px;
-    text-align: center;
-    margin-top: -3px;
+.dmn_solSec h3, .dmn_fillerSec h3, .dnm_prodTitle h3, .dmn_contactfiller h3{
+    font-weight: 500;
+    line-height: 54px;
+    margin: 0 auto;
+    width: 75%;
 }
-.dmn_fillerBlock .container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.dmn_solSec h3, .dmn_fillerSec h3{
+    color: #ffffff;
+}
+.dmn_solSec h6{
+    color: #fff;
+    margin: 15px auto 0 auto;
+}
+.dmn_solSec h6, .dnm_prodTitle h6{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 26px;
+    width: 75%;
 }
 
-.dmn_fillerBlock .container .dmn_contactBtn a{
-    margin-top: 0px !important;
+/*Benefits what we do*/
+.what-we-do h3{
+    color: #0C332B;
+    padding-bottom:70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    line-height: 54px;
+    margin: 0 auto;
+    width: 75%;
 }
+.what-we-do {
+    text-align: center;
+    padding: 80px 0 40px;
+}
+.what-we-do, .home-service-section, .testimonial-section{
+    background-image: url(../images/menew/backCommon.png);
+    background-size: contain;
+    background-repeat: repeat;
+}
+.what-we-do .single-block .icon img {
+    width: 150px;
+    height: 110px;
+    display: inline-block;
+}
+.what-we-do .single-block .icon {
+
+    display: inline-block;
+}
+.what-we-do .single-block h5 a {
+    color: #333333;
+    font-size: 15px;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* STATS FILLER*/
 .dmn_fillerSec{
-    background-image: url(../images/menew/back.jpg);
+    background-image: url(../images/menew/Overlay_final.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 140px 0 100px;
@@ -86,90 +125,12 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     background-attachment: fixed;
     margin: -92px;
 }
-.dmn_solSec h3, .what-we-do h3, .dmn_fillerSec h3, .dnm_prodTitle h3{
-    font-size: 38px;
-    font-weight: 400;
-    line-height: 54px;
-    margin: 0 auto;
-    width: 75%;
+.dmn_fillerBlock .container .dmn_contactBtn a{
+    margin-top: 0px !important;
 }
-.dmn_solSec h3, .dmn_fillerSec h3{
-    color: #ffffff;
-}
-.what-we-do h3{
-    color: #21B14B;
-}
-.dmn_solSec h6{
-    color: #fff;
-    margin: 35px auto 0 auto;
-}
-.dmn_solSec h6, .dnm_prodTitle h6{
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 30px;
-    width: 85%;
-}
-.dnm_prodTitle h6{
-    margin: 15px auto 0 auto;
-
-}
-.dnm_prodTitle{
-    color: #2d2d43;
-    text-align: center;
-    padding-bottom: 60px;
-}
-.what-we-do, .home-service-section, .testimonial-section{
-    background-image: url(../images/menew/backCommon.png);
-    background-size: contain;
-    background-repeat: repeat;
-}
-.company-seo-text{
-    padding: 100px 0 60px;
-    text-align: center;
-}
-
-.company-seo-text img.engine_icon{
-    width: 30%;
-    display: inline-block;
-}
-.testimonial-section{
-    background-color: rgba(195, 194, 194, 0.1);
-}
-.what-we-do h3{
-    padding: 80px 0;
-}
-.home-service-section{
-    margin-top: 91px;
-    padding: 100px 0 70px;
-}
-.dnm_prodtitle{
-    font-size: 35px;
-    font-weight: 400;
-    line-height: 50px;
-    color: #21B14B;
-}
-.dnm_prodSubTitle{
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 30px;
-}
-.dnm_prodTab,.dnm_prodWeb{
-    padding: 10px 20px 20px 20px;
-}
-.dnm_prodLink{
-    font-size: 15px;
-    padding-top: 10px;
-    color: #F58042;
-    cursor: pointer;
-}
-.dnm_prodTab a:hover, .dnm_prodTab a:hover{
-    color: #21B14B;    
-}
-
 .angled-section.svg-top {
     top: -85px;
 }
-
 /* .angled-section {
     position: absolute;
     z-index: 20;
@@ -181,212 +142,653 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
 :not(svg), :not(foreignObject) > svg {
     transform-origin: 0px 0px;
 }
-@media only screen and (min-width:1501px) {
-    .homeMainBanner{
-        background-image: url(../images/menew/slide.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 700px;
-    }
-    header.theme-menu-wrapper.full-width-menu {
-        height: 77px;
-    }
-    .dmn_fillerBlock .container h3{
-        text-align: left;
-        line-height: 40px;
-    }
-    .dmn_fillerBlock .container .dmn_contactBtn{
-        text-align: right;
-    } 
-    .company-seo-text .icon1, .company-seo-text .icon3{
-        width: 200px;
-        padding-top: 0px;
-        position: relative;
-        z-index: 999;
-    }
-    .company-seo-text .icon2, .company-seo-text .icon4{
-        width: 200px;
-        position: relative;
-        z-index: 999;
-    }
-    .company-seo-text .icon1{
-        margin-left: 105px;
-    
-    }
-    .company-seo-text .icon3{
-        margin-left: -105px;
-    }
-    .company-seo-text .text{
-        padding: 50px 0;
-    }
-.pricing-plan-one {padding: 100px;}
 
+/*SMART SOLUTION PRODUCTS*/
+.home-service-section{
+    margin-top: 91px;
+    padding: 100px 0;
+}
+.dnm_prodTitle h6{
+    margin: 15px auto 0 auto;
+}
+.prodsBlock{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.dnm_prodTitle{
+    color: #0C332B;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.dnm_prodtitle{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #0C332B;
+}
+.dnm_prodTab,.dnm_prodWeb{
+    padding: 10px 20px 20px 20px;
+}
+.dnm_prodTab a:hover, .dnm_prodWeb a:hover{
+    color: #21B14B;    
+}
+.dnm_prodSubTitle{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 25px;
+}
+.dnm_prodLink{
+    font-size: 15px;
+    padding-top: 10px;
+    color: #21B14B;
+    cursor: pointer;
 }
 
-@media only screen and (min-width:1099px) and (max-width:1500px){
-    .homeMainBanner{
-        background-image: url(../images/menew/Banner1.png);
-        margin-top: 20px;
-        height: calc(100%-90px);
-        background-size: 80% 100%;
-        height: calc(100vh - 90px);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    header.theme-menu-wrapper.full-width-menu {
-        height: 77px;
-    }
-    .bannerContent {
-        padding-top:120px;
-    }
-      .bannerContent h1{
-        line-height: 57px;
-        font-size: 40px;
-        padding: 20px 0 40px; 
-        font-weight: 400;
-    }
-    .dmn_fillerBlock .container h3{
-        text-align: left;
-        line-height: 40px;
-    }
-    .dmn_fillerBlock .container .dmn_contactBtn{
-        text-align: right;
-    } 
-    .company-seo-text .icon1, .company-seo-text .icon3{
-        width: 200px;
-        padding-top: 0px;
-        position: relative;
-        z-index: 999;
-    }
-    .company-seo-text .icon2, .company-seo-text .icon4{
-        width: 200px;
-        position: relative;
-        z-index: 999;
-    }
-    .company-seo-text .icon1{
-        margin-left: 105px;
-    
-    }
-    .company-seo-text .icon3{
-        margin-left: -105px;
-    }
-    .company-seo-text .text{
-        padding: 50px 0;
-    }
-.pricing-plan-one {padding: 100px;}
-
+/*/.REQUEST DEMO FILLER */
+.dmn_fillerBlock, .dmn_TestimonialfillerBlock{
+    background-image: url(../images/menew/fillerBack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.dmn_fillerBlock{
+    padding: 100px 0 120px;
+    margin-top: -3px;
+}
+.dmn_fillerBlock .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dmn_fillerBlock .container h3, .dmn_TestimonialfillerBlock{
+    line-height: 40px;
+    font-size: 30px;
+    color: #0C332B;
+    line-height: 40px;
 }
 
-@media only screen and (min-width:991px) and (max-width:1098px){
-    .homeMainBanner{
-        background-image: url(../images/menew/Banner1.png);
-        margin-top: -60px;
-        min-height: 700px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    header.theme-menu-wrapper.full-width-menu {
-        height: 77px;
-    }
-    .bannerContent {
-        padding-top:100px;
-    }
-    .bannerContent h1{
-        font-size: 32px;
-        padding: 20px 0 40px;
-        font-weight: 400;
-        line-height: 57px;
-    }
-.pricing-plan-one {padding: 100px;}
+/*SMART ENGINE*/
+.company-seo-text, .pricing-plan-one{
+    padding: 100px 0 100px;
+    text-align: center;
+    background-image: url(../images/menew/backCommon.png);
+    background-size: contain;
+    background-repeat: repeat;
+}
+.company-seo-text{
+    margin-top: -25px;
+}
+
+.icon1,.icon2,.icon3,.icon4,.icon5,.icon6{
+    text-align: center;
+}
+.icon1 img,.icon2 img,.icon3 img,.icon4 img,.icon5 img,.icon6 img{
+    display: inline-block;
+}
+.icon1 img{
+    width: 60%;
+}
+.icon2 img,.icon3 img,.icon5 img,.icon6 img{
+    width:55%;
+}
+.icon4 img{
+    width: 70%;
+}
+.icon2 img,.icon5 img{
+    margin-top: -70px;
+}
+.icon3 img,.icon4 img,.icon6 img{
+    margin-top: 90px;
+}
+.company-seo-text h5.engine-name{
+    color: #1F9441 !important;
+}
+.eng_arrow3{
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    bottom: -50px;
+    text-align: right;
+    transform: rotate(-80deg);
+    left: 190px;
+}
+.eng_arrow3 img, .eng_arrow6 img{
+    margin-top: 30px;
+}
+.eng_arrow1{
+    display: inline-block;
+    width: 70%;
+    position: relative;
+    bottom: 90px;
+    text-align: right;
+    left: 75px;
+}
+.eng_arrow5{
+    display: inline-block;
+    width: 70%;
+    position: relative;
+    bottom: 90px;
+    text-align: right;
+    right: -135px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 
 }
-@media only screen and (min-width:500px) and (max-width:990px){
-    .homeMainBanner{
-        background-image: url(../images/menew/mobBanner.jpg);
-        min-height: 500px;
-        margin-top: -35px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    .bannerContent {
-        padding-top:120px;
-    }
-      .bannerContent h1{
-        font-size: 30px;
-        padding: 30px 0;
-        font-weight: 500;
-
-    }
-
-    .dmn_fillerBlock .container h3{
-        text-align: left;
-        line-height: 40px;
-    }
-    .dmn_fillerBlock .container .dmn_contactBtn{
-        text-align: right;
-    } 
-    .company-seo-text .icon1, .company-seo-text .icon3{
-        width: 200px;
-        padding-top: 0px;
-        position: relative;
-        z-index: 999;
-    }
-    .company-seo-text .icon2, .company-seo-text .icon4{
-        width: 200px;
-        position: relative;
-        z-index: 999;
-    }
-    .company-seo-text .icon1{
-        margin-left: 105px;
-    
-    }
-    .company-seo-text .icon3{
-        margin-left: -105px;
-    }
-    .company-seo-text .text{
-        padding: 50px 0;
-    }
-.pricing-plan-one {padding: 100px;}
-
+.eng_arrow6{
+    display: inline-block;
+    width: 45%;
+    position: relative;
+    bottom: 185px;
+    text-align: right;
+    right: 170px;
 }
-@media only screen and (max-width:499px){
-    .homeMainBanner{
-        background-image: url(../images/menew/mobBanner.jpg);
-        margin-top: -30px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 300px;
-    }
-    header.theme-menu-wrapper.full-width-menu {
-        height: 73px;
-    }
-    .bannerContent {
-        padding-top:60px;
-    }
-    .bannerContent h1{
-        font-size: 20px;
-        padding: 25px 0;
-    }
-    .dmn_fillerBlock .container h3{
-        width: 100%;
-        line-height: 40px;
-    }
-    .company-seo-text .text{
-        padding: 20px 0;
-    }
-    .pricing-plan-one {padding: 20px;}
-    .testimonial-section{
-        padding-bottom: 70px;
-    }
-    .pricingSec img{
-        padding-top: 50px;
-    }
+
+/*PRICING*/
+.pricing_opt1 h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 54px;
+    margin: 0 auto;
+}
+.pricing-plan-one .tab-content .left-side  span.pricePer{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #0C332B;
+    text-transform: uppercase;
+}
+.pricing_opt2 h3{
+    margin: 40px 0;
 }
 .pricingSec img{
     display: inline-block;
     width: 30%;
+}
+.pricing_block{
+    background: #1F9441;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #fff;
+}
+.pricing_block h6{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.pricing_block p{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: normal;
+}
+.pric_hardware_plan {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.pricing_acc h6 {
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: #21B14B;
+}
+
+
+/*TESTIMONIALS*/
+.dmn_fillerBlock, .dmn_TestimonialfillerBlock{
+    padding: 100px 0 120px;
+}
+.dmn_TestimonialfillerBlock h6{
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 26px;
+    color: #333333;
+}
+.testimonial-section{
+    background-color: rgba(195, 194, 194, 0.1);
+}
+.testimonial-image img{
+    display: inline-block;
+    width: 70%;
+}
+
+/* CONTACT FILLER*/
+.dmn_contactfillerBlock{
+    background: url(../images/menew/filler1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    background-position: center;
+}
+.dmn_contactfiller h3{
+    color: #fff;
+}
+.contact_formBlock{
+    margin: 30px 0 0 0;
+}
+.contactForm input{
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #e7e7e7;
+    padding-left: 5px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.contactForm .dmn_contactBtn a {
+    color: #21B14B;
+    background: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+
+
+/*REQUEST DEMO FORM*/
+.modal-body{
+    background: url(../images/menew/form-back.png);
+    background-repeat: no-repeat;
+    background-size: 159% 97%;
+    background-position: left;
+}
+.formTitle{
+    text-align: center;
+    /* font-weight: 700; */
+    margin-bottom: 40px;
+}
+.formTitle h3{
+    color: #0C332B;
+    font-size: 25px;
+    line-height: 35px;
+}
+.formTitle p{
+    color: #0C332B;
+    font-size: 16px;
+}
+/*ABOVE 1500px SCREEN*/
+@media only screen and (min-width:1501px) {
+    .logo img{
+        max-width: 60%;
+    }
+    header.theme-menu-wrapper.full-width-menu {
+        height: 77px;
+    }
+    .container {
+        width: 1500px;
+    }
+    .homeMainBanner{
+        height: 700px;
+        margin-top: 150px;
+        height: calc(100vh - 90px);
+    }
+    .bannerSlide{
+        padding-left: 45px;
+    }
+    .dmn_solSec h3, .dmn_fillerSec h3, .dnm_prodTitle h3, .dmn_contactfiller h3{
+        font-size: 38px;
+    }
+    .dmn_fillerBlock .container h3{
+        text-align: left;
+    }
+    .dmn_fillerBlock .container .dmn_contactBtn{
+        text-align: right;
+    } 
+    .pricing-plan-one {
+        padding: 100px;
+    }
+    .dmn_contactfiller{
+        width: 70%;
+    }
+    .bannerImage{
+        margin-top: -50px;
+    }
+}
+
+/*LAPTOP SCREEN*/
+@media only screen and (min-width:1099px) and (max-width:1500px){
+    .logo img{
+        max-width: 60%;
+    }
+    header.theme-menu-wrapper.full-width-menu {
+        height: 77px;
+    }
+    .homeMainBanner{
+        margin-top: 20px;
+        height: calc(100vh - 90px);
+    }
+    .bannerSlide{
+        padding-left: 45px;
+    }
+    .bannerContent {
+        padding-top:120px;
+    }
+    .bannerContent h1{
+        line-height: 55px;
+        font-size: 45px;
+        padding: 20px 0 40px; 
+    }
+    .dmn_solSec h3, .dmn_fillerSec h3, .dnm_prodTitle h3, .dmn_contactfiller h3{
+        font-size: 38px;
+    }
+    .dmn_fillerBlock .container h3{
+        text-align: left;
+    }
+    .dmn_fillerBlock .container .dmn_contactBtn{
+        text-align: right;
+    } 
+    .pricing-plan-one {
+        padding: 100px;
+    }
+    .bannerImage{
+        margin-top: -50px;
+    }
+    .dmn_contactfiller{
+        width: 70%;
+    }
+}
+
+/*ABOVE IPAD PRO SCREEN*/
+@media only screen and (min-width:991px) and (max-width:1098px){
+    .logo img{
+        max-width: 60%;
+    }
+    header.theme-menu-wrapper.full-width-menu {
+        height: 77px;
+    }
+    .homeMainBanner{
+        height: calc(100vh - 90px);
+    }
+    .bannerContent {
+        padding-top:100px;
+    }
+    .bannerSlide{
+        padding-left: 45px;
+    }
+    .bannerContent h1{
+        font-size: 37px;
+        padding: 20px 0 40px;
+        line-height: 48px;
+    }
+    .dmn_solSec h3, .dmn_fillerSec h3, .dnm_prodTitle h3, .dmn_contactfiller h3{
+        font-size: 35px;
+    }
+    .what-we-do .single-block{
+        padding: 0px 15px !important;
+    }
+    .dmn_fillerBlock{
+        text-align: left;
+    }
+    .company-seo-text{
+        padding: 100px 0 0 0;
+    }
+    .pricing-plan-one {
+        padding: 100px 0;
+    }
+}
+
+/*IPAD SCREEN*/
+@media only screen and (min-width:500px) and (max-width:990px){
+    .logo img{
+        max-width: 55%;
+    }
+    .theme-menu-wrapper .logo,{
+        top: 28px;   
+    }
+    .navbar-header .demoBtn{
+        float: right;
+    }
+    header.theme-menu-wrapper.full-width-menu{
+        padding: 20px 0 0 0; 
+    }
+    header.theme-menu-wrapper.full-width-menu .container{
+        margin-bottom: 15px
+    }
+    .homeMainBanner{
+        height: calc(100vh - 200px);
+    }
+    .bannerContent {
+        padding-top:90px;
+    }
+    .bannerContent h1{
+        font-size: 28px;
+        padding: 30px 0;
+        line-height: 35px;
+    }
+    .dmn_solSec{
+        padding: 80px 0 70px 0;
+    }
+    .dmn_solSec h3{
+        font-size: 27px;
+    }
+    .dmn_solSec h6{
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .what-we-do h3{
+        font-size: 32px;
+    }
+    .dmn_fillerSec{
+        padding: 120px 0 75px;
+    }
+    .home-service-section{
+        padding: 90px 0
+    }
+    .prodsBlock{
+        padding-left: 0px;
+        text-align: center;
+        display: inline-block;
+    }
+    .dnm_prodTab, .dnm_prodWeb {
+        width: 49%;
+        display: inline-block;
+        padding:0px;
+    }
+    .dmn_fillerBlock, .dmn_TestimonialfillerBlock {
+        padding: 75px 0 85px;
+    }
+    .dmn_fillerBlock .container h3{
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .company-seo-text img {
+        margin: 0 auto 10px auto !important;
+    }
+    .icon1, .icon2, .icon3, .icon4, .icon5, .icon6{
+        margin-bottom: 50px;
+    }
+    .pricing-plan-one {
+        padding: 80px 0;
+    }
+    .pricing-plan-one .tab-content .left-side{
+        width: 47%;
+        margin: auto 10px;
+    }
+    .pricing_block{
+        margin-bottom: 30px;
+    }
+    .pricing_opt2 h3{
+        margin: 20px 0;
+    }
+    .testimonial-section{
+        margin-top: -4px;
+        padding: 55px 0 !important;
+        background: transparent;
+    }
+    footer .bottom-footer{
+        padding-bottom: 0px !important;
+    }
+    footer h4{
+        font-size: 17px;
+    }
+    .footer-logo h6, footer .footer-logo h5 a, footer .footer-list ul li a{
+        font-size: 14px;
+    }
+    footer .footer-list ul li{
+        line-height: 30px;
+    }
+}
+
+/*MOBILE SCREEN*/
+@media only screen and (max-width:499px){
+    .logo img{
+        max-width: 50%;
+    }
+    .theme-menu-wrapper .logo,{
+        top: 26px;   
+    }
+    .navbar-header .demoBtn{
+        float: right;
+        padding-top: 5px;
+    }
+    .navbar-header .demoBtn a{
+        color: #21B14B;
+        border-bottom: 1px solid #21B14B;
+        background: transparent;
+        margin: -7px 0 0 0px;
+        border-radius: 0px;
+        line-height: 17px;
+        font-size: 12px;
+        padding: 0px 10px;
+        width: 140px;
+    }
+    header.theme-menu-wrapper.full-width-menu{
+        padding: 20px 0 0 0; 
+    }
+    header.theme-menu-wrapper.full-width-menu .container{
+        margin-bottom: 30px
+    }
+    header.theme-menu-wrapper.full-width-menu {
+        height: 110px;
+    }
+    .theme-menu-wrapper.full-width-menu.fixed{
+        height: 60px; 
+    }
+    header.theme-menu-wrapper.full-width-menu.fixed .container{
+        margin-bottom: 24px;
+    }
+    .theme-menu-wrapper.fixed .logo{
+        top: 20px !important;
+    }
+    header.theme-menu-wrapper.full-width-menu.fixed{
+        padding: 8px 0 0 0;
+    }
+    .bannerContent h1{
+        font-size: 32px;
+        padding: 25px 0;
+        text-align: center;
+        line-height: 40px;
+    }
+    .bannerSlide .demoBtn{
+        text-align: center;
+        margin: 10px 0 20px 0;
+    }
+    .dmn_solSec{
+        padding: 70px 0;
+        background-size: cover;
+    }
+    .dmn_solSec h3, .dmn_fillerSec h3, .dnm_prodTitle h3, .dmn_contactfiller h3,
+    .dmn_fillerBlock .container h3, .dmn_TestimonialfillerBlock{
+        line-height: 37px;
+        width: 100%;
+    }
+    .dmn_solSec h6, .dnm_prodTitle h6{
+        font-size: 15px;
+        line-height: 23px;
+        width: 100%;
+    }
+    .what-we-do{
+        padding: 70px 0 0 0 !important;
+    }
+    .what-we-do h3{
+        font-size: 30px !important;
+        line-height: 37px !important;
+        padding-bottom: 30px;
+    }
+    .dmn_fillerSec {
+        padding: 120px 0 55px;
+        margin: -92px 0 0 0;
+    }   
+    .what-we-do .single-block{
+        margin-bottom: 30px;
+    }
+    .dmn_fillerBlock .container h3{
+        width: 100%;
+    }
+    .home-service-section{
+        margin-top: 0px;
+        padding: 70px 0;
+    }
+    .dnm_prodTitle{
+        padding-bottom: 30px;
+    }
+    .prodsBlock{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .dmn_fillerBlock, .dmn_TestimonialfillerBlock{
+        padding: 70px 0;
+    }
+
+    .dmn_fillerBlock .dmn_contactBtn{
+        margin-top: 30px;
+    }
+    .company-seo-text img {
+        margin: 0 auto 10px auto !important;
+    }
+    .icon1, .icon2, .icon3, .icon4, .icon5, .icon6{
+        margin: 20px 0 30px 0;
+    }
+    .pricing-plan-one {
+        padding: 50px 0;
+    }
+    .pricing-plan-one .tab-content .left-side, .pricing-plan-one .tab-content .right-side{
+        width: 70% !important;
+        text-align: center;
+        display: inline-block;
+    }
+    .pricing-plan-one .tab-content .left-side{
+        margin: 10px 0 30px 0;
+    }
+    .tab-content .float-left {
+        float: none;
+    }
+    .pricing_opt2 h3, .pricing_hardware {
+        margin: 0px 0 30px;
+    }
+    .pricing_acc h6{
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 500;
+    }
+    .pric_hardware_plan{
+        width: 100%;
+    }
+    .testimonial-section{
+        padding: 70px 0 !important;
+        background: transparent;
+    }
+    .dmn_contactfillerBlock {
+        background-size: cover;
+        padding: 75px 0 50px;
+    }
+    .pricingSec img{
+        padding-top: 50px;
+    }
+    .footer-list{
+        margin-top: 20px;
+    }
+    footer h4 {
+        margin-bottom: 0px;
+    }
+    footer .bottom-footer{
+        padding-bottom: 0px !important;
+    }
 }
