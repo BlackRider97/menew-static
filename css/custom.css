@@ -650,12 +650,12 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     }
     .navbar-header .demoBtn a{
         color: #21B14B;
-        border-bottom: 1px solid #21B14B;
+        /* border-bottom: 1px solid #21B14B; */
         background: transparent;
         margin: -7px 0 0 0px;
         border-radius: 0px;
         line-height: 17px;
-        font-size: 12px;
+        font-size: 11px;
         padding: 0px 10px;
         width: 140px;
     }
