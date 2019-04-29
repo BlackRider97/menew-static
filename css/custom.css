@@ -462,7 +462,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     }
     .homeMainBanner{
         margin-top: 20px;
-        height: calc(100vh - 90px);
+        /* height: calc(100vh - 90px); */
     }
     .bannerSlide{
         padding-left: 45px;
@@ -503,9 +503,9 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     header.theme-menu-wrapper.full-width-menu {
         height: 77px;
     }
-    .homeMainBanner{
+    /* .homeMainBanner{
         height: calc(100vh - 90px);
-    }
+    } */
     .bannerContent {
         padding-top:100px;
     }
@@ -551,9 +551,9 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     header.theme-menu-wrapper.full-width-menu .container{
         margin-bottom: 15px
     }
-    .homeMainBanner{
+    /* .homeMainBanner{
         height: calc(100vh - 200px);
-    }
+    } */
     .bannerContent {
         padding-top:90px;
     }
@@ -686,7 +686,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
         text-align: center;
         line-height: 40px;
     }
-    .bannerSlide .demoBtn a, {
+    .bannerSlide .demoBtn a,.dmn_fillerBlock .dmn_contactBtn a {
         text-align: center;
         margin: 10px 0 20px 0 !important;
         width: 55% !important;
