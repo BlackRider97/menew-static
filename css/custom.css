@@ -681,20 +681,20 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
         padding: 8px 0 0 0;
     }
     .bannerContent h1{
-        font-size: 32px;
+        font-size: 30px;
         padding: 25px 0;
         text-align: center;
         line-height: 40px;
     }
-    .bannerSlide .demoBtn a{
+    .bannerSlide .demoBtn a, {
         text-align: center;
         margin: 10px 0 20px 0;
-        width: 150px;
+        width: 55%;
         line-height: 30px;
         font-weight: 600;
         font-size: 11px;
     }
-    .bannerSlide .demoBtn{
+    .bannerSlide .demoBtn, .dmn_fillerBlock .dmn_contactBtn a{
         text-align: center;
     }
     .dmn_solSec{
