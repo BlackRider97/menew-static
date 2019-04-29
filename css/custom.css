@@ -657,7 +657,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
         line-height: 17px;
         font-size: 11px;
         padding: 0px 10px;
-        width: 140px;
+        /* width: 180px; */
     }
     header.theme-menu-wrapper.full-width-menu{
         padding: 20px 0 0 0; 
