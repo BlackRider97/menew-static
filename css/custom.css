@@ -96,8 +96,8 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     background-repeat: repeat;
 }
 .what-we-do .single-block .icon img {
-    width: 150px;
-    height: 110px;
+    /* width: 150px; */
+    height: 180px;
     display: inline-block;
 }
 .what-we-do .single-block .icon {
