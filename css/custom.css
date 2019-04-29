@@ -686,10 +686,16 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
         text-align: center;
         line-height: 40px;
     }
-    .bannerSlide.demoBtn{
+    .bannerSlide .demoBtn a{
         text-align: center;
         margin: 10px 0 20px 0;
         width: 150px;
+        line-height: 30px;
+        font-weight: 600;
+        font-size: 11px;
+    }
+    .bannerSlide .demoBtn{
+        text-align: center;
     }
     .dmn_solSec{
         padding: 70px 0;
