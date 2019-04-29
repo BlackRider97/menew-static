@@ -688,11 +688,11 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     }
     .bannerSlide .demoBtn a, {
         text-align: center;
-        margin: 10px 0 20px 0;
-        width: 55%;
-        line-height: 30px;
+        margin: 10px 0 20px 0 !important;
+        width: 55% !important;
+        line-height: 30px !important;
         font-weight: 600;
-        font-size: 11px;
+        font-size: 11px !important;
     }
     .bannerSlide .demoBtn, .dmn_fillerBlock .dmn_contactBtn a{
         text-align: center;
