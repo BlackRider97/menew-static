@@ -263,7 +263,7 @@ footer .footer-logo h5 a:hover,footer .footer-list ul li a:hover,footer .footer-
 .our-team-styleOne .single-team-member .image .opacity ul li a,.service-version-one .single-service:hover a,.service-version-two .single-service:hover .text a,
 .gullu-portfolio .single-item:hover .opacity a.view-more,.portfolio-details .page-changer li a:hover,.our-blog .single-blog.solid-color:hover .text>a,
 .our-blog.blog-v3 .single-blog:hover .text h5 a,.our-blog.blog-v2 .single-blog:hover .text h5 a,.shop-page .shop-sidebar .popular-product li:hover .text a,
-.blog-details .comment-area .comment-section .comment button:hover,.contact-us .contact-address>a:hover,.contact-us .contact-address ul li a:hover,
+.blog-details .comment-area .comment-section .comment button:hover,.contact-us .contact-address>a:hover,
 .shop-page .shop-sidebar .sidebar-categories li a:hover,.shop-page .shop-product-wrapper .single-product:hover h6 a,.shop-page .shop-product-wrapper .single-product>a:hover,
 header.theme-menu-wrapper.menu-style-two #mega-menu-wrapper .nav .login-button a:hover,.blog-sidebar .sidebar-recent-post li a:hover,.blog-sidebar .blog-categories ul li a:hover,
 .theme-modal-box .modal-content .modal-body form ul li label:before,.service-details .box-wrapper .middle-text ul li:before  {
@@ -278,7 +278,7 @@ header.theme-menu-wrapper.menu-style-two #mega-menu-wrapper .nav .login-button a
 }
 header.theme-menu-wrapper #mega-menu-wrapper .nav .login-button a:hover,.our-portfolio .theme-title a:hover,.banner-two .watch-video a:hover,.our-team-styleOne .title a:hover,
 header.theme-menu-wrapper.menu-style-two #mega-menu-wrapper .nav .login-button a:hover,.gullu-portfolio .single-item .opacity a.view-more:hover:before,.our-blog.blog-v2 .load-more:hover,
-.contact-us .contact-address ul li a:hover,.shop-page .shop-sidebar .sidebar-search input:focus,.shop-details .procuct-details .product-info>div>a.cart-button,
+.shop-page .shop-sidebar .sidebar-search input:focus,.shop-details .procuct-details .product-info>div>a.cart-button,
 .shop-details .procuct-details .product-info>div>a.wishlist-button:hover,.blog-sidebar .sidebar-keyword ul li a:hover {
   border-style: solid;
   border-color:#00d747;
@@ -339,7 +339,7 @@ header.theme-menu-wrapper {
   padding-top: 30px;
 }
 header.theme-menu-wrapper.full-width-menu {
-  padding: 25px 0 0 0;
+  padding: 20px 0 0 0;
   border-bottom: 1px solid;
   display: block;
   border-bottom: none;
@@ -1320,7 +1320,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 .pricing-plan-one .nav-tabs > li.active > a:hover,
 .pricing-plan-one .nav-tabs > li.active > a:focus {color: #fff;}
 .pricing-plan-one .tab-content .left-side {
-  width: 35%;
+  width: 100%;
   background: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
@@ -1328,10 +1328,10 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   min-height: 215px;
   color:#21B14B;
   padding: 20px 0;
-  margin: 10px 35px 0 0;
+  /* margin: 10px 35px 0 0; */
 }
-.pricing-plan-one .tab-content{
-  margin: 30px 0;
+.hvr-icon-wobble-horizontal{
+  padding-right: 0px;
 }
 .pricing-plan-one .tab-content .left-side span {
   font-family: 'Roboto', sans-serif;
@@ -2565,15 +2565,16 @@ footer .footer-list ul li a{
 }
 .blog-sidebar .sidebar-keyword ul li a:hover {color: #fff;}
 /*------------------------ Conatct US -------------------------*/
-.contact-us-form {padding-right: 70px;}
+
 .contact-us-form form input,
 .contact-us-form form textarea {
   background: #fff;
   border: none;
   border-bottom: 1px solid #f0eff4;
   width: 100%;
+  padding: 0 10px;
   max-width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 16px;
 }
 .contact-us-form form input:focus,
@@ -2582,9 +2583,9 @@ footer .footer-list ul li a{
 }
 .contact-us-form form input {height: 50px;}
 .contact-us-form form textarea {
-  height: 150px;
+  height: 120px;
   max-height: 150px;
-  padding: 20px 0;
+  padding: 20px 10px;
 }
 .contact-us-form form button {
   width: 190px;
@@ -2594,6 +2595,7 @@ footer .footer-list ul li a{
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
+  background: #21B14B;
   border-radius: 3px;
 }
 .contact-us .row [class*="col-"] {margin-bottom: 60px;}
@@ -2612,26 +2614,14 @@ footer .footer-list ul li a{
   color: #000;
 }
 .contact-us .contact-address ul li {
-  display: inline-block;
-  margin-top: 30px;
-}
-.contact-us .contact-address ul li a {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 1px solid rgba(0,0,0,0.1);
-  line-height: 38px;
-  text-align: center;
-  color: #cccccc;
-  margin-right: 15px;
+  margin-top: 20px;
 }
 #google-map-area {
-  padding: 0 50px;
-  margin: 50px 0 120px 0;
+  margin: 50px 0;
 }
 #contact-google-map {
   width: 100%;
-  height: 550px;
+  height: 300px;
 }
 /*======================= Form Validation ===================*/
 .alert-wrapper {

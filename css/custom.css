@@ -92,12 +92,12 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
 }
 .what-we-do, .home-service-section, .testimonial-section{
     background-image: url(../images/menew/backCommon.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: repeat;
 }
 .what-we-do .single-block .icon img {
     /* width: 150px; */
-    height: 180px;
+    height: 155px;
     display: inline-block;
 }
 .what-we-do .single-block .icon {
@@ -185,7 +185,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
 }
 
 /*/.REQUEST DEMO FILLER */
-.dmn_fillerBlock, .dmn_TestimonialfillerBlock{
+.dmn_fillerBlock, .dmn_TestimonialfillerBlock, .dmn_contactBlock{
     background-image: url(../images/menew/fillerBack.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -195,11 +195,6 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     padding: 100px 0 120px;
     margin-top: -3px;
 }
-.dmn_fillerBlock .container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 .dmn_fillerBlock .container h3, .dmn_TestimonialfillerBlock{
     line-height: 40px;
     font-size: 30px;
@@ -208,15 +203,15 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
 }
 
 /*SMART ENGINE*/
-.company-seo-text, .pricing-plan-one{
-    padding: 100px 0 100px;
+.company-seo-text, .pricing-plan-one, .contact_mainHead, .contact-us{
     text-align: center;
     background-image: url(../images/menew/backCommon.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: repeat;
 }
 .company-seo-text{
     margin-top: -25px;
+    padding: 100px 0 0 0;
 }
 
 .icon1,.icon2,.icon3,.icon4,.icon5,.icon6{
@@ -226,7 +221,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     display: inline-block;
 }
 .icon1 img{
-    width: 60%;
+    width: 65%;
 }
 .icon2 img,.icon3 img,.icon5 img,.icon6 img{
     width:55%;
@@ -247,7 +242,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     display: inline-block;
     width: 50%;
     position: relative;
-    bottom: -50px;
+    bottom: 20px;
     text-align: right;
     transform: rotate(-80deg);
     left: 190px;
@@ -261,7 +256,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     position: relative;
     bottom: 90px;
     text-align: right;
-    left: 75px;
+    left: 115px;
 }
 .eng_arrow5{
     display: inline-block;
@@ -280,7 +275,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     display: inline-block;
     width: 45%;
     position: relative;
-    bottom: 185px;
+    bottom: 220px;
     text-align: right;
     right: 170px;
 }
@@ -291,6 +286,12 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     font-weight: 600;
     line-height: 54px;
     margin: 0 auto;
+}
+.pricing-plan-one{
+    padding: 100px 0 0 0;
+}
+.pricing_opt1{
+    margin-bottom: 30px;
 }
 .pricing-plan-one .tab-content .left-side  span.pricePer{
     font-family: 'Roboto', sans-serif;
@@ -335,6 +336,13 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     font-weight: 600;
     text-align: center;
     color: #21B14B;
+}
+.pricingImg{
+    text-align: center;
+}
+.pricingImg img{
+    display: inline-block;
+    width: 65%;
 }
 
 
@@ -390,8 +398,6 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     letter-spacing: 1px;
 }
 
-
-
 /*REQUEST DEMO FORM*/
 .modal-body{
     background: url(../images/menew/form-back.png);
@@ -413,13 +419,97 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     color: #0C332B;
     font-size: 16px;
 }
+
+/*CONTACT PAGE*/
+.contact_mainHead {
+    padding: 70px 0;
+}
+.contactImg img{
+    width: 70%;
+    display: inline-block;
+}
+.contactImg{
+    text-align: center;
+}
+.contactText{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: left;
+}
+.headTitle h3{
+    line-height: 55px;
+    font-size: 45px;
+    color: #0C332B;
+    font-weight: 500;
+    text-align: left;
+}
+.headSubTitle h6{
+    font-size: 18px;
+    padding: 25px 0;
+    text-align: left;
+    line-height: 21px;
+    color: #333333;
+}
+.dmn_contactBlock{
+    padding: 70px 0;
+}
+.contactInfoBlock{
+    background: #21B14B;
+    padding: 20px 20px;
+    border-radius: 20px;  
+}
+.contact-address{
+    padding: 0 15px;
+    text-align: left;
+}
+.contact-address h2{
+    color: #fff;
+}
+.contact-us .contact-address ul li a {
+    color: #cccccc;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact-us .contact-address ul li a img{
+    width: 30px;
+    height: 20%;
+    text-align: left;
+}
+.contact-us-form {
+    width: 75%;   
+    padding-top: 20px;
+    margin: auto;
+}
+.contact-us{
+    padding-bottom: 80px;
+}
+
+.contactFormBlock1{
+    margin-top: 60px;
+    background: url(../images/menew/backdrop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center left;
+
+}
+.contact-us .contact-address ul li a span{
+    width: 80%;
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: left;
+}
+
+
 /*ABOVE 1500px SCREEN*/
 @media only screen and (min-width:1501px) {
     .logo img{
         max-width: 60%;
     }
-    header.theme-menu-wrapper.full-width-menu {
-        height: 77px;
+    header.theme-menu-wrapper.full-width-menu{
+        padding: 25px 0 0 0;
     }
     .container {
         width: 1500px;
@@ -438,17 +528,33 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     .dmn_fillerBlock .container h3{
         text-align: left;
     }
-    .dmn_fillerBlock .container .dmn_contactBtn{
-        text-align: right;
+    .dmn_fillerBlock .container .btnBlock{
+        text-align:  right;
     } 
     .pricing-plan-one {
-        padding: 100px;
+        padding: 100px 0;
     }
     .dmn_contactfiller{
         width: 70%;
     }
     .bannerImage{
         margin-top: -50px;
+    }
+    .contact-us .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between
+    }
+    .contactInfoBlock{
+        margin-top: -170px;                              
+    }
+    .contactInfoBlock{
+        width: 35%;
+    }
+    .HeaderBlock{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 
@@ -457,12 +563,11 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     .logo img{
         max-width: 60%;
     }
-    header.theme-menu-wrapper.full-width-menu {
-        height: 77px;
+    header.theme-menu-wrapper.full-width-menu{
+        padding: 25px 0 0 0;
     }
     .homeMainBanner{
         margin-top: 20px;
-        /* height: calc(100vh - 90px); */
     }
     .bannerSlide{
         padding-left: 45px;
@@ -481,17 +586,33 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     .dmn_fillerBlock .container h3{
         text-align: left;
     }
-    .dmn_fillerBlock .container .dmn_contactBtn{
-        text-align: right;
+    .dmn_fillerBlock .container .btnBlock{
+        text-align:  right;
     } 
     .pricing-plan-one {
-        padding: 100px;
+        padding: 100px 0;
     }
     .bannerImage{
         margin-top: -50px;
     }
     .dmn_contactfiller{
         width: 70%;
+    }
+    .contact-us .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between
+    }
+    .contactInfoBlock{
+        margin-top: -170px;                              
+    }
+    .contactInfoBlock{
+        width: 35%;
+    }
+    .HeaderBlock{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 
@@ -500,12 +621,6 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     .logo img{
         max-width: 60%;
     }
-    header.theme-menu-wrapper.full-width-menu {
-        height: 77px;
-    }
-    /* .homeMainBanner{
-        height: calc(100vh - 90px);
-    } */
     .bannerContent {
         padding-top:100px;
     }
@@ -532,6 +647,25 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     .pricing-plan-one {
         padding: 100px 0;
     }
+    .dmn_fillerBlock .container .btnBlock{
+        text-align:  right;
+    } 
+    .contact-us .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between
+    }
+    .contactInfoBlock{
+        margin-top: -170px;                              
+    }
+    .contactInfoBlock{
+        width: 35%;
+    }
+    .HeaderBlock{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 /*IPAD SCREEN*/
@@ -551,9 +685,6 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     header.theme-menu-wrapper.full-width-menu .container{
         margin-bottom: 15px
     }
-    /* .homeMainBanner{
-        height: calc(100vh - 200px);
-    } */
     .bannerContent {
         padding-top:90px;
     }
@@ -607,15 +738,17 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     .pricing-plan-one {
         padding: 80px 0;
     }
-    .pricing-plan-one .tab-content .left-side{
-        width: 47%;
-        margin: auto 10px;
+    .pricingImg img {
+        width: 90%
     }
     .pricing_block{
         margin-bottom: 30px;
     }
     .pricing_opt2 h3{
         margin: 20px 0;
+    }
+    .company-seo-text img{
+        height: 160px;
     }
     .testimonial-section{
         margin-top: -4px;
@@ -633,6 +766,11 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     }
     footer .footer-list ul li{
         line-height: 30px;
+    }
+    .HeaderBlock{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 
@@ -657,42 +795,20 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
         line-height: 17px;
         font-size: 11px;
         padding: 0px 10px;
-        /* width: 180px; */
     }
-    header.theme-menu-wrapper.full-width-menu{
-        padding: 20px 0 0 0; 
-    }
-    header.theme-menu-wrapper.full-width-menu .container{
-        margin-bottom: 30px
-    }
-    header.theme-menu-wrapper.full-width-menu {
-        height: 110px;
-    }
-    .theme-menu-wrapper.full-width-menu.fixed{
-        height: 60px; 
-    }
-    header.theme-menu-wrapper.full-width-menu.fixed .container{
-        margin-bottom: 24px;
-    }
-    .theme-menu-wrapper.fixed .logo{
-        top: 20px !important;
-    }
-    header.theme-menu-wrapper.full-width-menu.fixed{
-        padding: 8px 0 0 0;
-    }
+
     .bannerContent h1{
         font-size: 30px;
-        padding: 25px 0;
+        padding: 50px 0 30px 0;
         text-align: center;
         line-height: 40px;
     }
     .bannerSlide .demoBtn a,.dmn_fillerBlock .dmn_contactBtn a {
         text-align: center;
         margin: 10px 0 20px 0 !important;
-        width: 55% !important;
-        line-height: 30px !important;
+        line-height: 37px !important;
         font-weight: 600;
-        font-size: 11px !important;
+        font-size: 12px !important;
     }
     .bannerSlide .demoBtn, .dmn_fillerBlock .dmn_contactBtn a{
         text-align: center;
@@ -756,6 +872,13 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     .pricing-plan-one {
         padding: 50px 0;
     }
+    .pricingImg{
+        margin-bottom: 30px;
+    }
+
+    .pricing_opt1 h3{
+        font-size: 20px;
+    }
     .pricing-plan-one .tab-content .left-side, .pricing-plan-one .tab-content .right-side{
         width: 70% !important;
         text-align: center;
@@ -797,5 +920,14 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     }
     footer .bottom-footer{
         padding-bottom: 0px !important;
+    }
+    .contactText, .headSubTitle h6, .headTitle h3{
+        text-align: center !important;
+    }
+    .contact_mainHead{
+        padding: 50px 0;
+    }
+    .contactText{
+        margin-bottom: 30px;
     }
 }
