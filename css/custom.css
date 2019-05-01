@@ -56,11 +56,18 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     padding: 115px 0 100px 0;
     text-align: center;
 }
-.dmn_solSec h3, .dmn_fillerSec h3, .dnm_prodTitle h3, .dmn_contactfiller h3{
+.dmn_solSec h3, .dmn_fillerSec h3, .dnm_prodTitle h3{
     font-weight: 500;
     line-height: 54px;
     margin: 0 auto;
     width: 75%;
+}
+.dmn_contactfiller h3{
+    font-weight: 500;
+    line-height: 54px;
+    text-align: left;
+    /* margin: 0 auto; */
+    /* width: 75%; */
 }
 .dmn_solSec h3, .dmn_fillerSec h3{
     color: #ffffff;
@@ -394,8 +401,9 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     color: #21B14B;
     background: #ffffff;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 0px;
     letter-spacing: 1px;
+    float: right;
 }
 
 /*REQUEST DEMO FORM*/
@@ -462,6 +470,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
 .contact-address{
     padding: 0 15px;
     text-align: left;
+    margin-bottom: 30px;
 }
 .contact-address h2{
     color: #fff;
@@ -484,7 +493,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     margin: auto;
 }
 .contact-us{
-    padding-bottom: 80px;
+    padding: 0 40px 80px 40px;
 }
 
 .contactFormBlock1{
@@ -534,9 +543,9 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     .pricing-plan-one {
         padding: 100px 0;
     }
-    .dmn_contactfiller{
+    /* .dmn_contactfiller{
         width: 70%;
-    }
+    } */
     .bannerImage{
         margin-top: -50px;
     }
@@ -595,9 +604,9 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     .bannerImage{
         margin-top: -50px;
     }
-    .dmn_contactfiller{
+    /* .dmn_contactfiller{
         width: 70%;
-    }
+    } */
     .contact-us .row{
         display: flex;
         flex-direction: row;
@@ -930,4 +939,20 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     .contactText{
         margin-bottom: 30px;
     }
+    .dmn_contactBtn a{
+        width: 65%;
+    }
+    .contactForm .dmn_contactBtn a{
+        float: none;
+        text-align: center;
+    }
+    .dmn_contactfiller h3{
+        text-align: center;
+    }
+    /* .contact-us{
+        padding: 0 20px 50px 20px !important;
+    } */
+}
+#mega-menu-wrapper .nav li.dropdown-holder .fa{
+    display: none;
 }
