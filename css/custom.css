@@ -160,7 +160,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     margin: 15px auto 0 auto;
 }
 .prodsBlock{
-    padding-top: 30px;
+    /* padding-top: 30px; */
     padding-left: 40px;
 }
 .dnm_prodTitle{
@@ -197,7 +197,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     background-image: url(../images/menew/fillerBack.png);
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
+    /* text-align: center; */
 }
 .dmn_fillerBlock{
     padding: 100px 0 120px;
@@ -538,6 +538,69 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     line-height: 21px;
 }
 
+/*PRODUCTS*/
+.prodSubTitle h6{
+    color: #21B14B;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.prodText h6{
+    padding: 15px 10px;
+    color:#333333;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+.prodTab_block2{
+    display: flex;
+    flex-direction: row;
+}
+.prodTab_col1{
+    margin: auto 0;
+}
+.prodTab_col2{
+    margin: auto 0;
+    position: relative;
+}
+.Img_text-block{
+    background: #21B14B;
+    padding: 15px 20px;
+    border-radius: 15px;
+    text-align: left;
+}
+.Img_text-block h6{
+    color: #fff;
+    font-size: 15px;
+}
+.prodTab_text{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.prodft_title h6{
+    color: #21B14B;
+    font-size: 17px;
+    font-weight: 600;
+}
+.prodftText h6{
+    padding: 10px 0px;
+    color: #333333;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+}
+.smartTab_features{
+    background-image: url(../images/menew/backCommon.png);
+    background-size: cover;
+    background-repeat: repeat;
+    padding: 100px 0 70px 0;
+}
+.smartTab_featuresCol{
+    padding: 0 50px;
+}
+.prodfeatBlock{
+    margin-bottom: 30px;
+}
 /*ABOVE 1500px SCREEN*/
 @media only screen and (min-width:1501px) {
     .logo img{
@@ -596,6 +659,10 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     }
     .dmn_contactfillerBlock h6{
         text-align: left;
+    }
+    .prodTab_col2{
+        left: -150px;
+        width: 290px;
     }
 }
 
@@ -661,6 +728,10 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     .dmn_contactfillerBlock h6{
         text-align: left;
     }
+    .prodTab_col2{
+        left: -150px;
+        width: 290px;
+    }
 }
 
 /*ABOVE IPAD PRO SCREEN*/
@@ -718,6 +789,10 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     }
     .dmn_contactfillerBlock h6{
         text-align: left;
+    }
+    .prodTab_col2{
+        left: -70px;
+        width: 290px;
     }
 }
 
@@ -831,6 +906,10 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     .dmn_contactfillerBlock h6{
         text-align: left;
     }
+    .prodTab_col2{
+        left: -70px;
+        width: 290px;
+    }
 }
 
 /*MOBILE SCREEN*/
@@ -921,6 +1000,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
 
     .dmn_fillerBlock .dmn_contactBtn{
         margin-top: 30px;
+        text-align: center
     }
     .company-seo-text img {
         margin: 0 auto 10px auto !important;
@@ -996,7 +1076,8 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
         float: none;
         text-align: center;
     }
-    .dmn_contactfiller h3, .dmn_contactfillerBlock h6, .dmn_fillerBlock h6{
+    .dmn_contactfiller h3, .dmn_contactfillerBlock h6, .dmn_fillerBlock h6,
+    .dmn_fillerBlock .container h3,.prodfeatBlock{
         text-align: center !important;
     }
     .company-seo-text a {
@@ -1009,10 +1090,30 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
         width: 60%;
         margin: auto;
     }
-    /* .contact-us{
-        padding: 0 20px 50px 20px !important;
-    } */
+    .prodTab_block2{
+        flex-wrap: wrap;
+    }
+    .prodTab_col1{
+        padding: 50px 0;
+    }
+    .contact-us-form{
+        width: 100%;
+    }
+}
+#mega-menu-wrapper .nav li.dropdown-holder .fa:nth-child(even){
+    display: none;
 }
 #mega-menu-wrapper .nav li.dropdown-holder .fa{
-    display: none;
+    border-left: none;
+}
+.home-service-section .main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.dnm_prodTitle{
+    width: 100%;
+}
+.prodsBlock{
+    margin: auto;
 }
