@@ -535,7 +535,6 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     color: #333333;
     font-size: 18px;
     padding-top: 15px;
-    text-align: left;
     line-height: 21px;
 }
 
@@ -997,14 +996,18 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
         float: none;
         text-align: center;
     }
-    .dmn_contactfiller h3, .dmn_contactfillerBlock h6{
-        text-align: center;
+    .dmn_contactfiller h3, .dmn_contactfillerBlock h6, .dmn_fillerBlock h6{
+        text-align: center !important;
     }
     .company-seo-text a {
         margin: 50px 0 50px 0;
     }
     .dmn_contactfiller h3{
         padding: 20px 0;
+    }
+    .headBtnDemo .demoBtn{
+        width: 60%;
+        margin: auto;
     }
     /* .contact-us{
         padding: 0 20px 50px 20px !important;
