@@ -1179,11 +1179,28 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   left:0;
   bottom: 0;
 }
-.home-service-section ul {margin: 0 -35px;}
-.home-service-section ul li {
-  padding: 0 35px;
-  margin-bottom: 90px;
+.home-service-section ul {
+  margin: 0 -35px;
+  padding: 20px 0;
 }
+.home-service-section ul li {
+  padding: 0 0 0 35px;
+  margin-bottom: 5px;
+}
+.dnm_prodTab ul li:before, .prodText ul li::before, .prodft_title h6::before{
+  border-right: 2px solid #21B14B;
+  border-bottom: 2px solid #21B14B;
+  width: 10px;
+  height: 10px;
+  transform: rotate(-45deg);
+  content: "";
+  display: inline-block;
+  margin-right: 20px;
+}
+.dnm_prodTab li, .prodText li {
+  padding-bottom: 10px;
+  list-style:none;
+  }
 .home-service-section ul li div {
   position: relative;
   padding: 0 0 0 90px;
