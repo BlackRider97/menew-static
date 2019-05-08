@@ -164,12 +164,23 @@
 				<div class="row">
 					<div class="col-lg-6 col-md-5 col-sm-12 col-xs-12 contactFormBlock1">
 						<div class="contact-us-form">
-							<form action="inc/sendemail.php" class="form-validation" autocomplete="off">
+							<form class="form-validation" autocomplete="off" id="form">
 								<input type="text" placeholder="Name*" name="name" required>
 								<input type="email" placeholder="Email" name="email">
 								<input type="tel" placeholder="Phone*" name="phone" required>
 								<textarea placeholder="Your Message" name="message"></textarea>
 								<button class=" hvr-trim-two">Submit</button>
+								<div id="responseForm" class="hidden">
+									<p>Thank you</p>
+									<p>We will contact you soon</p>
+									<!-- Modal content -->
+									<!-- <div class="modal-content">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												
+											</div> -->
+
+								</div>
+							</form>
 							</form>
 						</div>
 						<!-- /.contact-us-form -->
@@ -338,15 +349,15 @@
 							<h3>See MeNew in action!</h3>
 							<p>Request a free demo today</p>
 						</div>
-						<form action="#">
+						<form id="gform">
 							<div class="wrapper">
-								<input type="text" placeholder="Name*" required>
-								<input type="text" placeholder="Email">
-								<input type="tel" placeholder="Phone*" required>
-								<input type="text" placeholder="Restaurant Name*" required>
-								<input type="text" placeholder="Location">
-								<input type="text" placeholder="Type of Business">
-								<input type="text" placeholder="No. of Outlets">
+								<input type="text" placeholder="Name*" name="name" required>
+								<input type="text" placeholder="Email" name="email" >
+								<input type="tel" placeholder="Phone*" name="phone"  required>
+								<input type="text" placeholder="Restaurant Name*" name="restaurant"  required>
+								<input type="text" placeholder="Location" name="location" >
+								<input type="text" placeholder="Type of Business" name="business" >
+								<input type="text" placeholder="No. of Outlets" name="outlets" >
 								<!-- <textarea placeholder="Message" rows = "5" cols = "50"></textarea> -->
 								<!-- <ul class="clearfix">
 										<li class="float-left">
@@ -358,6 +369,16 @@
 										</li>
 									</ul> -->
 								<button class=" hvr-trim-two">Submit</button>
+								<div id="successModal" class="hidden">
+									<p>Thank you</p>
+									<p>We will contact you soon</p>
+									<!-- Modal content -->
+									<!-- <div class="modal-content">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+											
+										</div> -->
+
+								</div>
 							</div>
 						</form>
 					</div>
@@ -375,7 +396,45 @@
 		<button class="scroll-top tran3s">
 			<i class="fa fa-angle-up" aria-hidden="true"></i>
 		</button>
+		<script>
+			$("#form").submit(function (e) {
+				var form = $(this);
+				var url = "https://script.google.com/macros/s/AKfycbwsCXXGXFE09b74VmcSzNKLFVIJzqBvbq6uJ4gE/exec";
 
+				$.ajax({
+					type: "POST",
+					url: url,
+					data: form.serialize(), // serializes the form's elements.
+					success: function (data) {
+						if (data.result == "success") {
+							$("#responseForm").removeClass("hidden");
+						}
+						console.log(data); // show response from the php script.
+					}
+				});
+
+				e.preventDefault(); // avoid to execute the actual submit of the form.
+			});
+
+			$("#gform").submit(function (e) {
+				var form = $(this);
+				var url = "https://script.google.com/macros/s/AKfycbxMrU6IyVEIwKjDazW51uNhjamv9oOrd6Jxb8X-/exec";
+
+				$.ajax({
+					type: "POST",
+					url: url,
+					data: form.serialize(), // serializes the form's elements.
+					success: function (data) {
+						if (data.result == "success") {
+							$("#successModal").removeClass("hidden");
+						}
+						console.log(data); // show response from the php script.
+					}
+				});
+
+				e.preventDefault(); // avoid to execute the actual submit of the form.
+			});
+		</script>
 
 
 		<!-- Js File_________________________________ -->

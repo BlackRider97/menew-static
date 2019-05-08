@@ -415,18 +415,30 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     background-position: left;
 }
 .formTitle{
-    text-align: center;
-    /* font-weight: 700; */
-    margin-bottom: 40px;
+    text-align: left;
+    margin: auto 0;
 }
 .formTitle h3{
     color: #0C332B;
     font-size: 25px;
     line-height: 35px;
 }
+.closeBtn span{
+    font-size: 35px;
+    line-height: 35px;
+    color: #21B14B;
+    cursor: pointer;
+}
 .formTitle p{
     color: #0C332B;
     font-size: 16px;
+}
+.modal_header{
+    display: flex;
+    flex-direction: row;
+    padding: 0 40px;
+    margin-bottom: 30px;
+    justify-content: space-between
 }
 
 /*CONTACT PAGE*/
