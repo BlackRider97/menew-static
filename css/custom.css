@@ -1092,7 +1092,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
         text-align: center;
     }
     .dmn_contactfiller h3, .dmn_contactfillerBlock h6, .dmn_fillerBlock h6,
-    .dmn_fillerBlock .container h3,.prodfeatBlock{
+    .dmn_fillerBlock .container h3{
         text-align: center !important;
     }
     .company-seo-text a {
@@ -1114,6 +1114,22 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     .contact-us-form{
         width: 100%;
     }
+    .home-service-section ul {
+        margin: 0 -35px;
+        text-align: left;
+        padding: 20px 0;
+    }
+    .prodText ul{
+        text-align: left;
+        padding-left: 15px;
+    }
+    .prodfeatBlock{
+        text-align: left;
+        padding: 0 15px;
+    }
+    .smartTab_featuresCol{
+        padding: 0px;
+    }
 }
 #mega-menu-wrapper .nav li.dropdown-holder .fa:nth-child(even){
     display: none;
@@ -1131,4 +1147,13 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
 }
 .prodsBlock{
     margin: auto;
+}
+.engPage{
+    padding: 0px;
+    margin-bottom: 0px !important;
+}
+.engPage h5{
+    color: #333;
+    font-size: 18px;
+    margin-top: 10px;
 }
