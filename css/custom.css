@@ -103,7 +103,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     background-size: cover;
     background-repeat: repeat;
 }
-.what-we-do .single-block .icon img {
+.what-we-do .single-block .icon img, .engineRow .single-block .icon img {
     /* width: 150px; */
     height: 155px;
     display: inline-block;
@@ -415,8 +415,9 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     background-position: left;
 }
 .formTitle{
-    text-align: left;
+    text-align: center;
     margin: auto 0;
+    padding-bottom: 25px;
 }
 .formTitle h3{
     color: #0C332B;
@@ -433,13 +434,13 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
     color: #0C332B;
     font-size: 16px;
 }
-.modal_header{
+/* .modal_header{
     display: flex;
     flex-direction: row;
     padding: 0 40px;
     margin-bottom: 30px;
     justify-content: space-between
-}
+} */
 
 /*CONTACT PAGE*/
 .contact_mainHead {
@@ -615,6 +616,54 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
 }
 .prodText ul{
     padding-top: 20px;
+}
+
+/* TERMS AND CONDITIONS*/
+.tnc_mainHead{
+    background-image: url(../images/menew/backCommon.png);
+    background-size: contain;
+    background-repeat: repeat;
+    padding: 40px 0;
+}
+.tncHead{
+    padding-top: 40px;
+}
+.tncData{
+    text-align: left;
+}
+.tncData h3{
+    font-size: 25px;
+    color: #21B14B;
+    line-height: 40px;
+    font-weight: 600;
+    /* padding: 30px 0 0 0; */
+    cursor: pointer;
+}
+.tncData p{
+    font-weight: 800;
+    padding: 10px 0px 0px 20px;
+}
+.tncData h6{
+    padding: 10px 0px 0px 30px;
+}
+.tncData h6, .tncData p{
+    color: #333333;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+}
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: transparent;
+    border-color: transparent;
+}
+.panel{
+    background: transparent;
+    border: none;
+    border-color: transparent;
+}
+.panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
+    border-top: none;
 }
 /*ABOVE 1500px SCREEN*/
 @media only screen and (min-width:1501px) {
@@ -1150,10 +1199,16 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav .demoBtn a:hover {color: #fff;
 }
 .engPage{
     padding: 0px;
-    margin-bottom: 0px !important;
+    margin-bottom: 20px !important;
 }
 .engPage h5{
     color: #333;
     font-size: 18px;
     margin-top: 10px;
+}
+.engineRow{
+    padding: 100px 0;
+}
+.engineFeatures{
+    text-align: left;
 }
