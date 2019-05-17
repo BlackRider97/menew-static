@@ -1476,12 +1476,12 @@ footer .footer-logo h5 a {
 footer h4 {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
-footer .footer-list ul li {line-height: 40px;}
+footer .footer-list ul li {line-height: 25px;}
 footer .footer-list ul li a {
   color: rgba(0,0,0,0.65);
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 footer .footer-subscribe input {
   width: 100%;
@@ -1515,6 +1515,9 @@ footer .bottom-footer {
 }
 footer .footer-list ul li a{
   line-height: 24px;
+}
+.footer-logo h6.p-color{
+  font-size: 16px;
 }
 .footer-logo{
   width: 80%;

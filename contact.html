@@ -18,17 +18,13 @@
 
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="56x56" href="images//menew/favicon.png">
-
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
 	<!-- Main style sheet -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/custom.css">
-
 	<!-- responsive style sheet -->
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<!-- Fix Internet Explorer ______________________________________-->
-
 	<!--[if lt IE 9]>
 						<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 						<script src="vendor/html5shiv.js"></script>
@@ -178,9 +174,7 @@
 												<button type="button" class="close" data-dismiss="modal">&times;</button>
 												
 											</div> -->
-
 								</div>
-							</form>
 							</form>
 						</div>
 						<!-- /.contact-us-form -->
@@ -213,12 +207,12 @@
 							</ul>
 						</div>
 						<div id="google-map-area hidden-sm hidden-xs">
-							<div class="google-map" id="contact-google-map" data-map-lat="17.413468" data-map-lng="78.366442" data-map-title="Find Map"
+							<div class="google-map" id="contact-google-map" data-map-lat="17.407754" data-map-lng="78.3849628" data-map-title="Find Map"
 							 data-map-zoom="12"></div>
 						</div>
 					</div>
 					<div id="google-map-area col-sm-12 col-xs-12 hidden-lg hidden-md">
-						<div class="google-map" id="contact-google-map" data-map-lat="17.413468" data-map-lng="78.366442" data-map-title="Find Map"
+						<div class="google-map" id="contact-google-map" data-map-lat="17.407754" data-map-lng="78.3849628" data-map-title="Find Map"
 						 data-map-zoom="12"></div>
 					</div>
 				</div>
@@ -263,6 +257,7 @@
 								<a href="#" class="tran3s">contact@demenew.com</a>
 							</h5>
 							<h6 class="p-color">+91 9133330125</h6>
+							<h6 class="p-color">084 13487999</h6>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-3 col-xs-12 footer-list">
@@ -287,6 +282,9 @@
 								</li> -->
 							<li>
 								<a href="contact.html" class="tran3s">Contact</a>
+							</li>
+							<li>
+								<a href="tnc.html" class="tran3s">Terms & Conditions</a>
 							</li>
 						</ul>
 					</div>
@@ -337,8 +335,6 @@
 				</div>
 			</div>
 		</footer>
-
-
 		<!-- Request DEMO Modal -->
 		<div class="modal fade signUpModal theme-modal-box" role="dialog">
 			<div class="modal-dialog">
@@ -352,12 +348,12 @@
 						<form id="gform">
 							<div class="wrapper">
 								<input type="text" placeholder="Name*" name="name" required>
-								<input type="text" placeholder="Email" name="email" >
-								<input type="tel" placeholder="Phone*" name="phone"  required>
-								<input type="text" placeholder="Restaurant Name*" name="restaurant"  required>
-								<input type="text" placeholder="Location" name="location" >
-								<input type="text" placeholder="Type of Business" name="business" >
-								<input type="text" placeholder="No. of Outlets" name="outlets" >
+								<input type="text" placeholder="Email" name="email">
+								<input type="tel" placeholder="Phone*" name="phone" required>
+								<input type="text" placeholder="Restaurant Name*" name="restaurant" required>
+								<input type="text" placeholder="Location" name="location">
+								<input type="text" placeholder="Type of Business" name="business">
+								<input type="text" placeholder="No. of Outlets" name="outlets">
 								<!-- <textarea placeholder="Message" rows = "5" cols = "50"></textarea> -->
 								<!-- <ul class="clearfix">
 										<li class="float-left">
@@ -389,93 +385,53 @@
 			<!-- /.modal-dialog -->
 		</div>
 		<!-- /.signUpModal -->
-
-
-
 		<!-- Scroll Top Button -->
 		<button class="scroll-top tran3s">
 			<i class="fa fa-angle-up" aria-hidden="true"></i>
 		</button>
-		<script>
-			$("#form").submit(function (e) {
-				var form = $(this);
-				var url = "https://script.google.com/macros/s/AKfycbwsCXXGXFE09b74VmcSzNKLFVIJzqBvbq6uJ4gE/exec";
-
-				$.ajax({
-					type: "POST",
-					url: url,
-					data: form.serialize(), // serializes the form's elements.
-					success: function (data) {
-						if (data.result == "success") {
-							$("#responseForm").removeClass("hidden");
-						}
-						console.log(data); // show response from the php script.
-					}
-				});
-
-				e.preventDefault(); // avoid to execute the actual submit of the form.
-			});
-
-			$("#gform").submit(function (e) {
-				var form = $(this);
-				var url = "https://script.google.com/macros/s/AKfycbxMrU6IyVEIwKjDazW51uNhjamv9oOrd6Jxb8X-/exec";
-
-				$.ajax({
-					type: "POST",
-					url: url,
-					data: form.serialize(), // serializes the form's elements.
-					success: function (data) {
-						if (data.result == "success") {
-							$("#successModal").removeClass("hidden");
-						}
-						console.log(data); // show response from the php script.
-					}
-				});
-
-				e.preventDefault(); // avoid to execute the actual submit of the form.
-			});
-		</script>
-
-
-		<!-- Js File_________________________________ -->
-
-		<!-- j Query -->
-		<script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
-		<!-- Bootstrap Select JS -->
-		<script type="text/javascript" src="vendor/bootstrap-select/dist/js/bootstrap-select.js"></script>
-
-		<!-- Bootstrap JS -->
-		<script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
-
-		<!-- Vendor js _________ -->
-		<!-- Mega menu  -->
-		<script type="text/javascript" src="vendor/bootstrap-mega-menu/js/menu.js"></script>
-
-		<!-- WOW js -->
-		<script type="text/javascript" src="vendor/WOW-master/dist/wow.min.js"></script>
-		<!-- owl.carousel -->
-		<script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
-		<!-- js count to -->
-		<script type="text/javascript" src="vendor/jquery.appear.js"></script>
-		<script type="text/javascript" src="vendor/jquery.countTo.js"></script>
-		<!-- js ripels -->
-		<script type="text/javascript" src="vendor/jquery.ripples-master/dist/jquery.ripples-min.js"></script>
-		<!-- Validation -->
-		<script type="text/javascript" src="vendor/contact-form/validate.js"></script>
-		<script type="text/javascript" src="vendor/contact-form/jquery.form.js"></script>
-		<!-- Google map js -->
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZ8VrXgGZ3QSC-0XubNhuB2uKKCwqVaD0&callback=googleMap"
-		 type="text/javascript"></script>
-		<!-- Gmap Helper -->
-		<script src="vendor/gmaps.min.js"></script>
-
-
-		<!-- Theme js -->
-		<script type="text/javascript" src="js/theme.js"></script>
-		<script type="text/javascript" src="js/map-script.js"></script>
-
 	</div>
-	<!-- /.main-page-wrapper -->
 </body>
+<!-- j Query -->
+<script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
+
+
+<!-- Js File_________________________________ -->
+
+<!-- Bootstrap Select JS -->
+<script type="text/javascript" src="vendor/bootstrap-select/dist/js/bootstrap-select.js"></script>
+
+<!-- Bootstrap JS -->
+<script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
+
+<!-- Vendor js _________ -->
+<!-- Mega menu  -->
+<script type="text/javascript" src="vendor/bootstrap-mega-menu/js/menu.js"></script>
+
+<!-- WOW js -->
+<script type="text/javascript" src="vendor/WOW-master/dist/wow.min.js"></script>
+<!-- owl.carousel -->
+<script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
+<!-- js count to -->
+<script type="text/javascript" src="vendor/jquery.appear.js"></script>
+<script type="text/javascript" src="vendor/jquery.countTo.js"></script>
+<!-- js ripels -->
+<script type="text/javascript" src="vendor/jquery.ripples-master/dist/jquery.ripples-min.js"></script>
+<!-- Validation -->
+<script type="text/javascript" src="vendor/contact-form/validate.js"></script>
+<script type="text/javascript" src="vendor/contact-form/jquery.form.js"></script>
+<!-- Google map js -->
+<!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP4W6cLuFVcGZ7RjWJCyP09BCvr_j3mFE&callback=googleMap"
+ type="text/javascript"></script>
+
+<!-- Gmap Helper -->
+<script src="vendor/gmaps.min.js"></script>
+
+
+<!-- Theme js -->
+<script type="text/javascript" src="js/theme.js"></script>
+<script type="text/javascript" src="js/form.js"></script>
+<script type="text/javascript" src="js/map-script.js"></script>
+<!-- /.main-page-wrapper -->
 
 </html>
